@@ -1,0 +1,797 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+CODE_HTTPERROR_302	./ot_stats.h	/^  CODE_HTTPERROR_302,$/;"	e	enum:__anon6
+CODE_HTTPERROR_400	./ot_stats.h	/^  CODE_HTTPERROR_400,$/;"	e	enum:__anon6
+CODE_HTTPERROR_400_COMPACT	./ot_stats.h	/^  CODE_HTTPERROR_400_COMPACT,$/;"	e	enum:__anon6
+CODE_HTTPERROR_400_PARAM	./ot_stats.h	/^  CODE_HTTPERROR_400_PARAM,$/;"	e	enum:__anon6
+CODE_HTTPERROR_402_NOTMODEST	./ot_stats.h	/^  CODE_HTTPERROR_402_NOTMODEST,$/;"	e	enum:__anon6
+CODE_HTTPERROR_403_IP	./ot_stats.h	/^  CODE_HTTPERROR_403_IP,$/;"	e	enum:__anon6
+CODE_HTTPERROR_404	./ot_stats.h	/^  CODE_HTTPERROR_404,$/;"	e	enum:__anon6
+CODE_HTTPERROR_500	./ot_stats.h	/^  CODE_HTTPERROR_500,$/;"	e	enum:__anon6
+CODE_HTTPERROR_COUNT	./ot_stats.h	/^  CODE_HTTPERROR_COUNT$/;"	e	enum:__anon6
+EVENT_ACCEPT	./ot_stats.h	/^  EVENT_ACCEPT,$/;"	e	enum:__anon5
+EVENT_ANNOUNCE	./ot_stats.h	/^  EVENT_ANNOUNCE,$/;"	e	enum:__anon5
+EVENT_BUCKET_LOCKED	./ot_stats.h	/^  EVENT_BUCKET_LOCKED,$/;"	e	enum:__anon5
+EVENT_COMPLETED	./ot_stats.h	/^  EVENT_COMPLETED,$/;"	e	enum:__anon5
+EVENT_CONNECT	./ot_stats.h	/^  EVENT_CONNECT,      \/* UDP only *\/$/;"	e	enum:__anon5
+EVENT_CONNID_MISSMATCH	./ot_stats.h	/^  EVENT_CONNID_MISSMATCH$/;"	e	enum:__anon5
+EVENT_FAILED	./ot_stats.h	/^  EVENT_FAILED,$/;"	e	enum:__anon5
+EVENT_FULLSCRAPE	./ot_stats.h	/^  EVENT_FULLSCRAPE,   \/* TCP only *\/$/;"	e	enum:__anon5
+EVENT_FULLSCRAPE_REQUEST	./ot_stats.h	/^  EVENT_FULLSCRAPE_REQUEST,$/;"	e	enum:__anon5
+EVENT_FULLSCRAPE_REQUEST_GZIP	./ot_stats.h	/^  EVENT_FULLSCRAPE_REQUEST_GZIP,$/;"	e	enum:__anon5
+EVENT_READ	./ot_stats.h	/^  EVENT_READ,$/;"	e	enum:__anon5
+EVENT_RENEW	./ot_stats.h	/^  EVENT_RENEW,$/;"	e	enum:__anon5
+EVENT_SCRAPE	./ot_stats.h	/^  EVENT_SCRAPE,$/;"	e	enum:__anon5
+EVENT_SYNC	./ot_stats.h	/^  EVENT_SYNC,$/;"	e	enum:__anon5
+EVENT_WOODPECKER	./ot_stats.h	/^  EVENT_WOODPECKER,$/;"	e	enum:__anon5
+FLAG_CONNECTED	./proxy.c	/^  FLAG_CONNECTED     = 0x03,$/;"	e	enum:__anon10	file:
+FLAG_CONNECTING	./proxy.c	/^  FLAG_CONNECTING    = 0x01,$/;"	e	enum:__anon10	file:
+FLAG_DISCONNECTED	./proxy.c	/^  FLAG_DISCONNECTED  = 0x00,$/;"	e	enum:__anon10	file:
+FLAG_MASK	./proxy.c	/^  FLAG_MASK          = 0x07$/;"	e	enum:__anon10	file:
+FLAG_MCA	./trackerlogic.h	/^typedef enum { FLAG_TCP, FLAG_UDP, FLAG_MCA, FLAG_SELFPIPE } PROTO_FLAG;$/;"	e	enum:__anon2
+FLAG_OUTGOING	./proxy.c	/^  FLAG_OUTGOING      = 0x80,$/;"	e	enum:__anon10	file:
+FLAG_SELFPIPE	./trackerlogic.h	/^typedef enum { FLAG_TCP, FLAG_UDP, FLAG_MCA, FLAG_SELFPIPE } PROTO_FLAG;$/;"	e	enum:__anon2
+FLAG_SERVERSOCKET	./proxy.c	/^enum { FLAG_SERVERSOCKET = 1 };$/;"	e	enum:__anon9	file:
+FLAG_TCP	./trackerlogic.h	/^typedef enum { FLAG_TCP, FLAG_UDP, FLAG_MCA, FLAG_SELFPIPE } PROTO_FLAG;$/;"	e	enum:__anon2
+FLAG_UDP	./trackerlogic.h	/^typedef enum { FLAG_TCP, FLAG_UDP, FLAG_MCA, FLAG_SELFPIPE } PROTO_FLAG;$/;"	e	enum:__anon2
+FLAG_WAITTRACKERID	./proxy.c	/^  FLAG_WAITTRACKERID = 0x02,$/;"	e	enum:__anon10	file:
+GETU32	./ot_rijndael.c	365;"	d	file:
+G_DEBUGBUF_SIZE	./trackerlogic.h	117;"	d
+G_INBUF_SIZE	./trackerlogic.h	112;"	d
+G_OUTBUF_SIZE	./trackerlogic.h	114;"	d
+HELPLINE	./opentracker.c	115;"	d	file:
+HELPLINE	./opentracker.c	135;"	d	file:
+HTTPERROR_302	./ot_http.c	89;"	d	file:
+HTTPERROR_400	./ot_http.c	90;"	d	file:
+HTTPERROR_400_COMPACT	./ot_http.c	92;"	d	file:
+HTTPERROR_400_DOUBLEHASH	./ot_http.c	93;"	d	file:
+HTTPERROR_400_PARAM	./ot_http.c	91;"	d	file:
+HTTPERROR_402_NOTMODEST	./ot_http.c	94;"	d	file:
+HTTPERROR_403_IP	./ot_http.c	95;"	d	file:
+HTTPERROR_404	./ot_http.c	96;"	d	file:
+HTTPERROR_500	./ot_http.c	97;"	d	file:
+IF_COMPRESSION	./ot_fullscrape.c	39;"	d	file:
+IF_COMPRESSION	./ot_fullscrape.c	42;"	d	file:
+LIVESYNC_INCOMING_BUFFSIZE	./ot_livesync.c	31;"	d	file:
+LIVESYNC_INCOMING_BUFFSIZE	./proxy.c	51;"	d	file:
+LIVESYNC_MAXDELAY	./ot_livesync.c	36;"	d	file:
+LIVESYNC_MAXDELAY	./proxy.c	56;"	d	file:
+LIVESYNC_OUTGOING_BUFFSIZE_PEERS	./ot_livesync.c	33;"	d	file:
+LIVESYNC_OUTGOING_BUFFSIZE_PEERS	./proxy.c	54;"	d	file:
+LIVESYNC_OUTGOING_WATERMARK_PEERS	./ot_livesync.c	34;"	d	file:
+LIVESYNC_OUTGOING_WATERMARK_PEERS	./proxy.c	55;"	d	file:
+LIVESYNC_PORT	./ot_livesync.h	42;"	d
+LOG_TO_STDERR	./ot_stats.c	35;"	d	file:
+LOG_TO_STDERR	./ot_stats.c	37;"	d	file:
+MAXPRECBIT	./trackerlogic.c	228;"	d	file:
+MAXPRECBIT	./trackerlogic.c	231;"	d	file:
+MAX_PEERS	./proxy.c	49;"	d	file:
+MTX_DBG	./ot_mutex.c	24;"	d	file:
+OT_ADMINIP_MAX	./trackerlogic.h	47;"	d
+OT_BUCKET_COUNT	./trackerlogic.h	56;"	d
+OT_BUCKET_COUNT_BITS	./trackerlogic.h	54;"	d
+OT_BUCKET_COUNT_SHIFT	./trackerlogic.h	57;"	d
+OT_CLEAN_INTERVAL_MINUTES	./ot_clean.h	10;"	d
+OT_CLEAN_SLEEP	./ot_clean.h	13;"	d
+OT_CLIENT_REQUEST_INTERVAL	./trackerlogic.h	31;"	d
+OT_CLIENT_REQUEST_INTERVAL_RANDOM	./trackerlogic.h	37;"	d
+OT_CLIENT_REQUEST_VARIATION	./trackerlogic.h	32;"	d
+OT_CLIENT_SYNC_RENEW_BOUNDARY	./trackerlogic.h	44;"	d
+OT_CLIENT_TIMEOUT	./trackerlogic.h	28;"	d
+OT_CLIENT_TIMEOUT_CHECKINTERVAL	./trackerlogic.h	29;"	d
+OT_CLIENT_TIMEOUT_SEND	./trackerlogic.h	30;"	d
+OT_HASH_COMPARE_SIZE	./trackerlogic.h	85;"	d
+OT_IP_SIZE	./trackerlogic.h	20;"	d
+OT_IP_SIZE	./trackerlogic.h	23;"	d
+OT_MAXMULTISCRAPE_COUNT	./ot_http.c	33;"	d	file:
+OT_MAX_THREADS	./trackerlogic.h	48;"	d
+OT_MODEST_PEER_TIMEOUT	./trackerlogic.h	41;"	d
+OT_PEERFLAG	./trackerlogic.h	82;"	d
+OT_PEERLIST_HASBUCKETS	./trackerlogic.h	107;"	d
+OT_PEERTIME	./trackerlogic.h	83;"	d
+OT_PEER_BUCKET_MAXCOUNT	./ot_vector.h	16;"	d
+OT_PEER_BUCKET_MINCOUNT	./ot_vector.h	15;"	d
+OT_PEER_COMPARE_SIZE	./trackerlogic.h	86;"	d
+OT_PEER_TIMEOUT	./trackerlogic.h	50;"	d
+OT_PERMISSION_MAY_FULLSCRAPE	./ot_accesslist.h	/^  OT_PERMISSION_MAY_FULLSCRAPE = 0x1,$/;"	e	enum:__anon20
+OT_PERMISSION_MAY_LIVESYNC	./ot_accesslist.h	/^  OT_PERMISSION_MAY_LIVESYNC   = 0x4,$/;"	e	enum:__anon20
+OT_PERMISSION_MAY_PROXY	./ot_accesslist.h	/^  OT_PERMISSION_MAY_PROXY      = 0x8$/;"	e	enum:__anon20
+OT_PERMISSION_MAY_STAT	./ot_accesslist.h	/^  OT_PERMISSION_MAY_STAT       = 0x2,$/;"	e	enum:__anon20
+OT_SCRAPE_CHUNK_SIZE	./ot_fullscrape.c	33;"	d	file:
+OT_SCRAPE_MAXENTRYLEN	./ot_fullscrape.c	36;"	d	file:
+OT_SETIP	./trackerlogic.h	77;"	d
+OT_SETIP	./trackerlogic.h	79;"	d
+OT_SETPORT	./trackerlogic.h	81;"	d
+OT_STATS_TMPSIZE	./ot_stats.c	42;"	d	file:
+OT_SYNC_CHUNK_SIZE	./ot_sync.c	28;"	d	file:
+OT_SYNC_INTERVAL_MINUTES	./proxy.c	59;"	d	file:
+OT_SYNC_PEER	./ot_livesync.c	/^enum { OT_SYNC_PEER };$/;"	e	enum:__anon13	file:
+OT_SYNC_PEER	./proxy.c	/^enum { OT_SYNC_PEER };$/;"	e	enum:__anon8	file:
+OT_SYNC_SLEEP	./proxy.c	62;"	d	file:
+OT_TORRENT_TIMEOUT	./trackerlogic.h	35;"	d
+OT_TORRENT_TIMEOUT_HOURS	./trackerlogic.h	34;"	d
+OT_VECTOR_GROW_RATIO	./ot_vector.h	11;"	d
+OT_VECTOR_MIN_MEMBERS	./ot_vector.h	10;"	d
+OT_VECTOR_SHRINK_RATIO	./ot_vector.h	13;"	d
+OT_VECTOR_SHRINK_THRESH	./ot_vector.h	12;"	d
+PEERS_BENCODED	./trackerlogic.h	21;"	d
+PEERS_BENCODED	./trackerlogic.h	24;"	d
+PEER_FLAG_COMPLETED	./trackerlogic.h	/^static const uint8_t PEER_FLAG_COMPLETED = 0x40;$/;"	v
+PEER_FLAG_FROM_SYNC	./trackerlogic.h	/^static const uint8_t PEER_FLAG_FROM_SYNC = 0x10;$/;"	v
+PEER_FLAG_LEECHING	./trackerlogic.h	/^static const uint8_t PEER_FLAG_LEECHING  = 0x00;$/;"	v
+PEER_FLAG_SEEDING	./trackerlogic.h	/^static const uint8_t PEER_FLAG_SEEDING   = 0x80;$/;"	v
+PEER_FLAG_STOPPED	./trackerlogic.h	/^static const uint8_t PEER_FLAG_STOPPED   = 0x20;$/;"	v
+PROTO_FLAG	./trackerlogic.h	/^typedef enum { FLAG_TCP, FLAG_UDP, FLAG_MCA, FLAG_SELFPIPE } PROTO_FLAG;$/;"	t	typeref:enum:__anon2
+PROXYPEER_ISCONNECTED	./proxy.c	232;"	d	file:
+PROXYPEER_NEEDSCONNECT	./proxy.c	231;"	d	file:
+PROXYPEER_SETCONNECTED	./proxy.c	236;"	d	file:
+PROXYPEER_SETCONNECTING	./proxy.c	234;"	d	file:
+PROXYPEER_SETDISCONNECTED	./proxy.c	233;"	d	file:
+PROXYPEER_SETWAITTRACKERID	./proxy.c	235;"	d	file:
+PUTU32	./ot_rijndael.c	366;"	d	file:
+SCAN_PATH	./scan_urlencoded_query.h	/^  SCAN_PATH                  = 1,$/;"	e	enum:__anon22
+SCAN_SEARCHPATH_FLAG	./scan_urlencoded_query.h	/^} SCAN_SEARCHPATH_FLAG;$/;"	t	typeref:enum:__anon22
+SCAN_SEARCHPATH_PARAM	./scan_urlencoded_query.h	/^  SCAN_SEARCHPATH_PARAM      = 2,$/;"	e	enum:__anon22
+SCAN_SEARCHPATH_TERMINATOR	./scan_urlencoded_query.h	/^  SCAN_SEARCHPATH_TERMINATOR = 8$/;"	e	enum:__anon22
+SCAN_SEARCHPATH_VALUE	./scan_urlencoded_query.h	/^  SCAN_SEARCHPATH_VALUE      = 4,$/;"	e	enum:__anon22
+STATS_NETWORK_NODE_BITWIDTH	./ot_stats.c	66;"	d	file:
+STATS_NETWORK_NODE_COUNT	./ot_stats.c	67;"	d	file:
+STATS_NETWORK_NODE_LIMIT	./ot_stats.c	78;"	d	file:
+STATS_NETWORK_NODE_LIMIT	./ot_stats.c	81;"	d	file:
+STATS_NETWORK_NODE_MAXDEPTH	./ot_stats.c	77;"	d	file:
+STATS_NETWORK_NODE_MAXDEPTH	./ot_stats.c	80;"	d	file:
+STREAMSYNC_OUTGOING_BUFFSIZE	./proxy.c	52;"	d	file:
+STRUCT_HTTP_FLAG	./ot_http.h	/^} STRUCT_HTTP_FLAG;$/;"	t	typeref:enum:__anon15
+STRUCT_HTTP_FLAG_BZIP2	./ot_http.h	/^  STRUCT_HTTP_FLAG_BZIP2          = 4$/;"	e	enum:__anon15
+STRUCT_HTTP_FLAG_GZIP	./ot_http.h	/^  STRUCT_HTTP_FLAG_GZIP           = 2,$/;"	e	enum:__anon15
+STRUCT_HTTP_FLAG_WAITINGFORTASK	./ot_http.h	/^  STRUCT_HTTP_FLAG_WAITINGFORTASK = 1,$/;"	e	enum:__anon15
+SUCCESS_HTTP_HEADER_LENGTH	./ot_http.c	/^  SUCCESS_HTTP_HEADER_LENGTH = 80,$/;"	e	enum:__anon18	file:
+SUCCESS_HTTP_HEADER_LENGTH_CONTENT_ENCODING	./ot_http.c	/^  SUCCESS_HTTP_HEADER_LENGTH_CONTENT_ENCODING = 32,$/;"	e	enum:__anon18	file:
+SUCCESS_HTTP_SIZE_OFF	./ot_http.c	/^  SUCCESS_HTTP_SIZE_OFF = 17 };$/;"	e	enum:__anon18	file:
+SYNC_IN	./ot_sync.h	/^enum { SYNC_IN, SYNC_OUT };$/;"	e	enum:__anon14
+SYNC_OUT	./ot_sync.h	/^enum { SYNC_IN, SYNC_OUT };$/;"	e	enum:__anon14
+TASK_CLASS_MASK	./ot_mutex.h	/^  TASK_CLASS_MASK                  = 0x0f00,$/;"	e	enum:__anon23
+TASK_DMEM	./ot_mutex.h	/^  TASK_DMEM                        = 0x0300,$/;"	e	enum:__anon23
+TASK_DONE	./ot_mutex.h	/^  TASK_DONE                        = 0x0f00,$/;"	e	enum:__anon23
+TASK_FLAGS_MASK	./ot_mutex.h	/^  TASK_FLAGS_MASK                  = 0xf000$/;"	e	enum:__anon23
+TASK_FLAG_BZIP2	./ot_mutex.h	/^  TASK_FLAG_BZIP2                  = 0x2000,$/;"	e	enum:__anon23
+TASK_FLAG_GZIP	./ot_mutex.h	/^  TASK_FLAG_GZIP                   = 0x1000,$/;"	e	enum:__anon23
+TASK_FULLSCRAPE	./ot_mutex.h	/^  TASK_FULLSCRAPE                  = 0x0200, \/* Default mode *\/$/;"	e	enum:__anon23
+TASK_FULLSCRAPE_TPB_ASCII	./ot_mutex.h	/^  TASK_FULLSCRAPE_TPB_ASCII        = 0x0202,$/;"	e	enum:__anon23
+TASK_FULLSCRAPE_TPB_BINARY	./ot_mutex.h	/^  TASK_FULLSCRAPE_TPB_BINARY       = 0x0201,$/;"	e	enum:__anon23
+TASK_FULLSCRAPE_TPB_URLENCODED	./ot_mutex.h	/^  TASK_FULLSCRAPE_TPB_URLENCODED   = 0x0203,$/;"	e	enum:__anon23
+TASK_FULLSCRAPE_TRACKERSTATE	./ot_mutex.h	/^  TASK_FULLSCRAPE_TRACKERSTATE     = 0x0204,$/;"	e	enum:__anon23
+TASK_STATS	./ot_mutex.h	/^  TASK_STATS                       = 0x0100, \/* Mask *\/$/;"	e	enum:__anon23
+TASK_STATS_BUSY_NETWORKS	./ot_mutex.h	/^  TASK_STATS_BUSY_NETWORKS         = 0x0009,$/;"	e	enum:__anon23
+TASK_STATS_COMPLETED	./ot_mutex.h	/^  TASK_STATS_COMPLETED             = 0x000c,$/;"	e	enum:__anon23
+TASK_STATS_CONNS	./ot_mutex.h	/^  TASK_STATS_CONNS                 = 0x0001,$/;"	e	enum:__anon23
+TASK_STATS_EVERYTHING	./ot_mutex.h	/^  TASK_STATS_EVERYTHING            = 0x0106,$/;"	e	enum:__anon23
+TASK_STATS_FULLLOG	./ot_mutex.h	/^  TASK_STATS_FULLLOG               = 0x0107,$/;"	e	enum:__anon23
+TASK_STATS_FULLSCRAPE	./ot_mutex.h	/^  TASK_STATS_FULLSCRAPE            = 0x0005,$/;"	e	enum:__anon23
+TASK_STATS_HTTPERRORS	./ot_mutex.h	/^  TASK_STATS_HTTPERRORS            = 0x0007,$/;"	e	enum:__anon23
+TASK_STATS_NUMWANTS	./ot_mutex.h	/^  TASK_STATS_NUMWANTS              = 0x000d,$/;"	e	enum:__anon23
+TASK_STATS_PEERS	./ot_mutex.h	/^  TASK_STATS_PEERS                 = 0x0102,$/;"	e	enum:__anon23
+TASK_STATS_RENEW	./ot_mutex.h	/^  TASK_STATS_RENEW                 = 0x000a,$/;"	e	enum:__anon23
+TASK_STATS_SCRAPE	./ot_mutex.h	/^  TASK_STATS_SCRAPE                = 0x0004,$/;"	e	enum:__anon23
+TASK_STATS_SLASH24S	./ot_mutex.h	/^  TASK_STATS_SLASH24S              = 0x0103,$/;"	e	enum:__anon23
+TASK_STATS_SYNCS	./ot_mutex.h	/^  TASK_STATS_SYNCS                 = 0x000b,$/;"	e	enum:__anon23
+TASK_STATS_TCP	./ot_mutex.h	/^  TASK_STATS_TCP                   = 0x0002,$/;"	e	enum:__anon23
+TASK_STATS_TOP10	./ot_mutex.h	/^  TASK_STATS_TOP10                 = 0x0104,$/;"	e	enum:__anon23
+TASK_STATS_TOP100	./ot_mutex.h	/^  TASK_STATS_TOP100                = 0x0105,$/;"	e	enum:__anon23
+TASK_STATS_TORRENTS	./ot_mutex.h	/^  TASK_STATS_TORRENTS              = 0x0101,$/;"	e	enum:__anon23
+TASK_STATS_TPB	./ot_mutex.h	/^  TASK_STATS_TPB                   = 0x0006,$/;"	e	enum:__anon23
+TASK_STATS_UDP	./ot_mutex.h	/^  TASK_STATS_UDP                   = 0x0003,$/;"	e	enum:__anon23
+TASK_STATS_VERSION	./ot_mutex.h	/^  TASK_STATS_VERSION               = 0x0008,$/;"	e	enum:__anon23
+TASK_STATS_WOODPECKERS	./ot_mutex.h	/^  TASK_STATS_WOODPECKERS           = 0x0108,$/;"	e	enum:__anon23
+TASK_TASK_MASK	./ot_mutex.h	/^  TASK_TASK_MASK                   = 0x0fff,$/;"	e	enum:__anon23
+Te0	./ot_rijndael.c	/^static const uint32_t Te0[256] = {$/;"	v	file:
+Te1	./ot_rijndael.c	/^static const uint32_t Te1[256] = {$/;"	v	file:
+Te2	./ot_rijndael.c	/^static const uint32_t Te2[256] = {$/;"	v	file:
+Te3	./ot_rijndael.c	/^static const uint32_t Te3[256] = {$/;"	v	file:
+Te4	./ot_rijndael.c	/^static const uint32_t Te4[256] = {$/;"	v	file:
+WANT_ACCESSLIST	./ot_accesslist.h	14;"	d
+WANT_COMPRESSION_GZIP_PARAM	./ot_fullscrape.c	40;"	d	file:
+WANT_COMPRESSION_GZIP_PARAM	./ot_fullscrape.c	43;"	d	file:
+WANT_SYNC	./trackerlogic.h	141;"	d
+WANT_SYNC_LIVE	./proxy.c	36;"	d	file:
+WANT_SYNC_PARAM	./trackerlogic.h	145;"	d
+WANT_SYNC_PARAM	./trackerlogic.h	147;"	d
+__BYTE	./ot_stats.c	69;"	d	file:
+__LDR	./ot_stats.c	73;"	d	file:
+__MSK	./ot_stats.c	70;"	d	file:
+__OT_ACCESSLIST_H__	./ot_accesslist.h	7;"	d
+__OT_CLEAN_H__	./ot_clean.h	7;"	d
+__OT_FULLSCRAPE_H__	./ot_fullscrape.h	7;"	d
+__OT_HTTP_H__	./ot_http.h	7;"	d
+__OT_IOVEC_H__	./ot_iovec.h	7;"	d
+__OT_LIVESYNC_H__	./ot_livesync.h	7;"	d
+__OT_MUTEX_H__	./ot_mutex.h	7;"	d
+__OT_RIJNDAEL_H__	./ot_rijndael.h	13;"	d
+__OT_STATS_H__	./ot_stats.h	7;"	d
+__OT_SYNC_H__	./ot_sync.h	7;"	d
+__OT_TRACKERLOGIC_H__	./trackerlogic.h	7;"	d
+__OT_UDP_H__	./ot_udp.h	7;"	d
+__OT_VECTOR_H__	./ot_vector.h	7;"	d
+__SCAN_URLENCODED_QUERY_H__	./scan_urlencoded_query.h	7;"	d
+__SHFT	./ot_stats.c	71;"	d	file:
+__STR	./ot_stats.c	74;"	d	file:
+__anon11::fd	./proxy.c	/^  int64    fd;              \/* A file handle, if connected, <= 0 is disconnected (0 initially, -1 else) *\/$/;"	m	struct:__anon11	file:	access:public
+__anon11::indata	./proxy.c	/^  uint8_t  indata[8192*16]; \/* Any data not processed yet *\/$/;"	m	struct:__anon11	file:	access:public
+__anon11::indata_length	./proxy.c	/^  size_t   indata_length;   \/* Length of unprocessed data *\/$/;"	m	struct:__anon11	file:	access:public
+__anon11::ip	./proxy.c	/^  ot_ip6   ip;              \/* The peer to connect to *\/$/;"	m	struct:__anon11	file:	access:public
+__anon11::outdata	./proxy.c	/^  io_batch outdata;         \/* The iobatch containing our sync data *\/$/;"	m	struct:__anon11	file:	access:public
+__anon11::packet_tcount	./proxy.c	/^  size_t   packet_tcount;   \/* Number of unprocessed torrents in packet we currently receive *\/$/;"	m	struct:__anon11	file:	access:public
+__anon11::packet_tid	./proxy.c	/^  uint32_t packet_tid;      \/* Tracker id for current packet *\/$/;"	m	struct:__anon11	file:	access:public
+__anon11::packet_tprefix	./proxy.c	/^  uint8_t  packet_tprefix;  \/* Prefix byte for all torrents in current packet *\/$/;"	m	struct:__anon11	file:	access:public
+__anon11::packet_type	./proxy.c	/^  uint8_t  packet_type;     \/* Type of current packet *\/$/;"	m	struct:__anon11	file:	access:public
+__anon11::port	./proxy.c	/^  uint16_t port;            \/* The peers port *\/$/;"	m	struct:__anon11	file:	access:public
+__anon11::state	./proxy.c	/^  int      state;           \/* Whether we want to connect, how far our handshake is, etc. *\/$/;"	m	struct:__anon11	file:	access:public
+__anon11::tracker_id	./proxy.c	/^  uint32_t tracker_id;      \/* How the other end greeted *\/$/;"	m	struct:__anon11	file:	access:public
+__anon12::data	./ot_vector.h	/^  void   *data;$/;"	m	struct:__anon12	access:public
+__anon12::size	./ot_vector.h	/^  size_t  size;$/;"	m	struct:__anon12	access:public
+__anon12::space	./ot_vector.h	/^  size_t  space;$/;"	m	struct:__anon12	access:public
+__anon16::peer_count	./ot_stats.c	/^  unsigned long long peer_count;$/;"	m	struct:__anon16	file:	access:public
+__anon16::seed_count	./ot_stats.c	/^  unsigned long long seed_count;$/;"	m	struct:__anon16	file:	access:public
+__anon16::torrent_count	./ot_stats.c	/^  unsigned long long torrent_count;$/;"	m	struct:__anon16	file:	access:public
+__anon17::torrent	./ot_stats.c	/^typedef struct { size_t val; ot_torrent * torrent; } ot_record;$/;"	m	struct:__anon17	file:	access:public
+__anon17::val	./ot_stats.c	/^typedef struct { size_t val; ot_torrent * torrent; } ot_record;$/;"	m	struct:__anon17	file:	access:public
+__anon19::ip	./ot_http.c	/^typedef struct { ot_ip6 ip; ot_time last_fullscrape; } ot_scrape_log;$/;"	m	struct:__anon19	file:	access:public
+__anon19::last_fullscrape	./ot_http.c	/^typedef struct { ot_ip6 ip; ot_time last_fullscrape; } ot_scrape_log;$/;"	m	struct:__anon19	file:	access:public
+__anon1::address	./trackerlogic.h	/^typedef struct { ot_ip6 address; int bits; }$/;"	m	struct:__anon1	access:public
+__anon1::bits	./trackerlogic.h	/^typedef struct { ot_ip6 address; int bits; }$/;"	m	struct:__anon1	access:public
+__anon21::key	./scan_urlencoded_query.h	/^  char *key;$/;"	m	struct:__anon21	access:public
+__anon21::value	./scan_urlencoded_query.h	/^  int   value;$/;"	m	struct:__anon21	access:public
+__anon3::data	./trackerlogic.h	/^  uint8_t data[OT_IP_SIZE+2+2];$/;"	m	struct:__anon3	access:public
+__anon4::hash	./trackerlogic.h	/^  ot_hash      hash;$/;"	m	struct:__anon4	access:public
+__anon4::peer_list	./trackerlogic.h	/^  ot_peerlist *peer_list;$/;"	m	struct:__anon4	access:public
+__anon7::networks	./ot_accesslist.c	/^  ot_vector  networks;$/;"	m	struct:__anon7	file:	access:public
+__anon7::proxy	./ot_accesslist.c	/^  ot_net    *proxy;$/;"	m	struct:__anon7	file:	access:public
+accesslist_blessip	./ot_accesslist.c	/^int accesslist_blessip( ot_ip6 ip, ot_permissions permissions ) {$/;"	f	signature:( ot_ip6 ip, ot_permissions permissions )
+accesslist_blessip	./ot_accesslist.h	/^int  accesslist_blessip( ot_ip6 ip, ot_permissions permissions );$/;"	p	signature:( ot_ip6 ip, ot_permissions permissions )
+accesslist_deinit	./ot_accesslist.c	/^void accesslist_deinit( void ) {$/;"	f	signature:( void )
+accesslist_deinit	./ot_accesslist.h	/^void accesslist_deinit( );$/;"	p	signature:( )
+accesslist_deinit	./ot_accesslist.h	23;"	d
+accesslist_hashisvalid	./ot_accesslist.c	/^int accesslist_hashisvalid( ot_hash hash ) {$/;"	f	signature:( ot_hash hash )
+accesslist_hashisvalid	./ot_accesslist.h	/^int  accesslist_hashisvalid( ot_hash hash );$/;"	p	signature:( ot_hash hash )
+accesslist_hashisvalid	./ot_accesslist.h	24;"	d
+accesslist_init	./ot_accesslist.c	/^void accesslist_init( ) {$/;"	f
+accesslist_init	./ot_accesslist.h	/^void accesslist_init( );$/;"	p	signature:( )
+accesslist_init	./ot_accesslist.h	22;"	d
+accesslist_isblessed	./ot_accesslist.c	/^int accesslist_isblessed( ot_ip6 ip, ot_permissions permissions ) {$/;"	f	signature:( ot_ip6 ip, ot_permissions permissions )
+accesslist_isblessed	./ot_accesslist.h	/^int  accesslist_isblessed( ot_ip6 ip, ot_permissions permissions );$/;"	p	signature:( ot_ip6 ip, ot_permissions permissions )
+accesslist_readfile	./ot_accesslist.c	/^static void accesslist_readfile( void ) {$/;"	f	file:	signature:( void )
+accesslist_worker	./ot_accesslist.c	/^static void * accesslist_worker( void * args ) {$/;"	f	file:	signature:( void * args )
+add_changeset_to_tracker	./ot_sync.c	/^int add_changeset_to_tracker( uint8_t *data, size_t len ) {$/;"	f	signature:( uint8_t *data, size_t len )
+add_changeset_to_tracker	./ot_sync.h	/^int  add_changeset_to_tracker( uint8_t *data, size_t len );$/;"	p	signature:( uint8_t *data, size_t len )
+add_peer_to_torrent_and_return_peers	./trackerlogic.c	/^size_t add_peer_to_torrent_and_return_peers( PROTO_FLAG proto, struct ot_workstruct *ws, size_t amount ) {$/;"	f	signature:( PROTO_FLAG proto, struct ot_workstruct *ws, size_t amount )
+add_peer_to_torrent_and_return_peers	./trackerlogic.h	/^size_t  add_peer_to_torrent_and_return_peers( PROTO_FLAG proto, struct ot_workstruct *ws, size_t amount );$/;"	p	signature:( PROTO_FLAG proto, struct ot_workstruct *ws, size_t amount )
+add_peer_to_torrent_proxy	./proxy.c	/^size_t add_peer_to_torrent_proxy( ot_hash hash, ot_peer *peer ) {$/;"	f	signature:( ot_hash hash, ot_peer *peer )
+add_torrent_from_saved_state	./trackerlogic.c	/^void add_torrent_from_saved_state( ot_hash hash, ot_time base, size_t down_count ) {$/;"	f	signature:( ot_hash hash, ot_time base, size_t down_count )
+add_torrent_from_saved_state	./trackerlogic.h	/^void    add_torrent_from_saved_state( ot_hash hash, ot_time base, size_t down_count );$/;"	p	signature:( ot_hash hash, ot_time base, size_t down_count )
+address	./trackerlogic.h	/^typedef struct { ot_ip6 address; int bits; }$/;"	m	struct:__anon1	access:public
+address_in_net	./ot_accesslist.c	/^int address_in_net( const ot_ip6 address, const ot_net *net ) {$/;"	f	signature:( const ot_ip6 address, const ot_net *net )
+address_in_net	./ot_accesslist.h	/^int address_in_net( const ot_ip6 address, const ot_net *net );$/;"	p	signature:( const ot_ip6 address, const ot_net *net )
+all_torrents	./ot_mutex.c	/^static ot_vector all_torrents[OT_BUCKET_COUNT];$/;"	v	file:
+base	./trackerlogic.h	/^  ot_time        base;$/;"	m	struct:ot_peerlist	access:public
+batch	./ot_http.h	/^  io_batch         batch;$/;"	m	struct:http_data	access:public
+binary_search	./ot_vector.c	/^void *binary_search( const void * const key, const void * base, const size_t member_count, const size_t member_size,$/;"	f	signature:( const void * const key, const void * base, const size_t member_count, const size_t member_size, size_t compare_size, int *exactmatch )
+binary_search	./ot_vector.h	/^void    *binary_search( const void * const key, const void * base, const size_t member_count, const size_t member_size,$/;"	p	signature:( const void * const key, const void * base, const size_t member_count, const size_t member_size, size_t compare_size, int *exactmatch )
+bits	./trackerlogic.h	/^typedef struct { ot_ip6 address; int bits; }$/;"	m	struct:__anon1	access:public
+bucket_being_unlocked	./ot_mutex.c	/^static pthread_cond_t bucket_being_unlocked;$/;"	v	file:
+bucket_check	./ot_mutex.c	/^static int bucket_check( int bucket ) {$/;"	f	file:	signature:( int bucket )
+bucket_locklist	./ot_mutex.c	/^static int bucket_locklist[ OT_MAX_THREADS ];$/;"	v	file:
+bucket_locklist_count	./ot_mutex.c	/^static int bucket_locklist_count = 0;$/;"	v	file:
+bucket_mutex	./ot_mutex.c	/^static pthread_mutex_t bucket_mutex;$/;"	v	file:
+bucket_push	./ot_mutex.c	/^static void bucket_push( int bucket ) {$/;"	f	file:	signature:( int bucket )
+bucket_remove	./ot_mutex.c	/^static void bucket_remove( int bucket ) {$/;"	f	file:	signature:( int bucket )
+children	./ot_stats.c	/^  stats_network_node *children[STATS_NETWORK_NODE_COUNT];$/;"	m	union:stats_network_node	file:	access:public
+clean_deinit	./ot_clean.c	/^void clean_deinit( void ) {$/;"	f	signature:( void )
+clean_deinit	./ot_clean.h	/^void clean_deinit( void );$/;"	p	signature:( void )
+clean_init	./ot_clean.c	/^void clean_init( void ) {$/;"	f	signature:( void )
+clean_init	./ot_clean.h	/^void clean_init( void );$/;"	p	signature:( void )
+clean_single_bucket	./ot_clean.c	/^static ssize_t clean_single_bucket( ot_peer *peers, size_t peer_count, time_t timedout, int *removed_seeders ) {$/;"	f	file:	signature:( ot_peer *peers, size_t peer_count, time_t timedout, int *removed_seeders )
+clean_single_torrent	./ot_clean.c	/^int clean_single_torrent( ot_torrent *torrent ) {$/;"	f	signature:( ot_torrent *torrent )
+clean_single_torrent	./ot_clean.h	/^int  clean_single_torrent( ot_torrent *torrent );$/;"	p	signature:( ot_torrent *torrent )
+clean_worker	./ot_clean.c	/^static void * clean_worker( void * args ) {$/;"	f	file:	signature:( void * args )
+counters	./ot_stats.c	/^  size_t              counters[STATS_NETWORK_NODE_COUNT];$/;"	m	union:stats_network_node	file:	access:public
+data	./ot_accesslist.h	/^  uint8_t *data;$/;"	m	struct:ot_log	access:public
+data	./ot_vector.h	/^  void   *data;$/;"	m	struct:__anon12	access:public
+data	./trackerlogic.h	/^  uint8_t data[OT_IP_SIZE+2+2];$/;"	m	struct:__anon3	access:public
+debugbuf	./trackerlogic.h	/^  char    *debugbuf;$/;"	m	struct:ot_workstruct	access:public
+defaul_signal_handlers	./opentracker.c	/^static void defaul_signal_handlers( void ) {$/;"	f	file:	signature:( void )
+down_count	./trackerlogic.h	/^  size_t         down_count;$/;"	m	struct:ot_peerlist	access:public
+drop_privileges	./opentracker.c	/^int drop_privileges ( const char * const serveruser, const char * const serverdir ) {$/;"	f	signature:( const char * const serveruser, const char * const serverdir )
+dummy_list	./trackerlogic.c	/^static ot_peerlist dummy_list;$/;"	v	file:
+events_per_time	./ot_stats.c	/^static unsigned long events_per_time( unsigned long long events, time_t t ) {$/;"	f	file:	signature:( unsigned long long events, time_t t )
+exerr	./proxy.c	/^void exerr( char * message ) {$/;"	f	signature:( char * message )
+exerr	./trackerlogic.c	/^void exerr( char * message ) {$/;"	f	signature:( char * message )
+exerr	./trackerlogic.h	/^void exerr( char * message );$/;"	p	signature:( char * message )
+fd	./proxy.c	/^  int64    fd;              \/* A file handle, if connected, <= 0 is disconnected (0 initially, -1 else) *\/$/;"	m	struct:__anon11	file:	access:public
+flag	./ot_http.h	/^  STRUCT_HTTP_FLAG flag;$/;"	m	struct:http_data	access:public
+free_peerlist	./proxy.c	/^void free_peerlist( ot_peerlist *peer_list ) {$/;"	f	signature:( ot_peerlist *peer_list )
+free_peerlist	./trackerlogic.c	/^void free_peerlist( ot_peerlist *peer_list ) {$/;"	f	signature:( ot_peerlist *peer_list )
+free_peerlist	./trackerlogic.h	/^void free_peerlist( ot_peerlist *peer_list );$/;"	p	signature:( ot_peerlist *peer_list )
+fromhex	./scan_urlencoded_query.c	/^static unsigned char fromhex(unsigned char x) {$/;"	f	file:	signature:(unsigned char x)
+fullscrape_deinit	./ot_fullscrape.c	/^void fullscrape_deinit( ) {$/;"	f
+fullscrape_deinit	./ot_fullscrape.h	/^void fullscrape_deinit( );$/;"	p	signature:( )
+fullscrape_deinit	./ot_fullscrape.h	18;"	d
+fullscrape_deliver	./ot_fullscrape.c	/^void fullscrape_deliver( int64 sock, ot_tasktype tasktype ) {$/;"	f	signature:( int64 sock, ot_tasktype tasktype )
+fullscrape_deliver	./ot_fullscrape.h	/^void fullscrape_deliver( int64 sock, ot_tasktype tasktype );$/;"	p	signature:( int64 sock, ot_tasktype tasktype )
+fullscrape_increase	./ot_fullscrape.c	/^static int fullscrape_increase( int *iovec_entries, struct iovec **iovector,$/;"	f	file:	signature:( int *iovec_entries, struct iovec **iovector, char **r, char **re WANT_COMPRESSION_GZIP_PARAM( z_stream *strm, ot_tasktype mode, int zaction ) )
+fullscrape_init	./ot_fullscrape.c	/^void fullscrape_init( ) {$/;"	f
+fullscrape_init	./ot_fullscrape.h	/^void fullscrape_init( );$/;"	p	signature:( )
+fullscrape_init	./ot_fullscrape.h	17;"	d
+fullscrape_make	./ot_fullscrape.c	/^static void fullscrape_make( int *iovec_entries, struct iovec **iovector, ot_tasktype mode ) {$/;"	f	file:	signature:( int *iovec_entries, struct iovec **iovector, ot_tasktype mode )
+fullscrape_make	./ot_fullscrape.c	/^static void fullscrape_make( int *iovec_entries, struct iovec **iovector, ot_tasktype mode );$/;"	p	file:	signature:( int *iovec_entries, struct iovec **iovector, ot_tasktype mode )
+fullscrape_worker	./ot_fullscrape.c	/^static void * fullscrape_worker( void * args ) {$/;"	f	file:	signature:( void * args )
+g_accesslist	./ot_accesslist.c	/^static ot_hash *g_accesslist;$/;"	v	file:
+g_accesslist_filename	./ot_accesslist.c	/^       char    *g_accesslist_filename;$/;"	v
+g_accesslist_filename	./ot_accesslist.h	/^extern char *g_accesslist_filename;$/;"	x
+g_accesslist_mutex	./ot_accesslist.c	/^static pthread_mutex_t g_accesslist_mutex;$/;"	v	file:
+g_accesslist_size	./ot_accesslist.c	/^static size_t   g_accesslist_size;$/;"	v	file:
+g_adminip_addresses	./ot_accesslist.c	/^static ot_ip6         g_adminip_addresses[OT_ADMINIP_MAX];$/;"	v	file:
+g_adminip_count	./ot_accesslist.c	/^static unsigned int   g_adminip_count = 0;$/;"	v	file:
+g_adminip_permissions	./ot_accesslist.c	/^static ot_permissions g_adminip_permissions[OT_ADMINIP_MAX];$/;"	v	file:
+g_connection_count	./proxy.c	/^static int        g_connection_count;$/;"	v	file:
+g_connection_reconn	./proxy.c	/^static ot_time    g_connection_reconn;$/;"	v	file:
+g_connections	./proxy.c	/^static proxy_peer g_connections[MAX_PEERS];$/;"	v	file:
+g_hour_of_the_key	./ot_udp.c	/^static ot_time  g_hour_of_the_key;$/;"	v	file:
+g_inbuffer	./proxy.c	/^static uint8_t  g_inbuffer[LIVESYNC_INCOMING_BUFFSIZE];$/;"	v	file:
+g_key_of_the_hour	./ot_udp.c	/^static uint32_t g_key_of_the_hour[2] = {0};$/;"	v	file:
+g_logchain_first	./ot_accesslist.c	/^ot_log *g_logchain_first, *g_logchain_last;$/;"	v
+g_logchain_first	./ot_accesslist.h	/^extern ot_log *g_logchain_first, *g_logchain_last;$/;"	x
+g_logchain_last	./ot_accesslist.c	/^ot_log *g_logchain_first, *g_logchain_last;$/;"	v
+g_logchain_last	./ot_accesslist.h	/^extern ot_log *g_logchain_first, *g_logchain_last;$/;"	x
+g_lognets_list	./ot_accesslist.c	/^static ot_vector g_lognets_list;$/;"	v	file:
+g_lognets_list_mutex	./ot_accesslist.c	/^static pthread_mutex_t g_lognets_list_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+g_modest_fullscrape_mutex	./ot_http.c	/^static pthread_mutex_t g_modest_fullscrape_mutex = PTHREAD_MUTEX_INITIALIZER; $/;"	v	file:
+g_modest_fullscrape_timeouts	./ot_http.c	/^static ot_vector g_modest_fullscrape_timeouts;$/;"	v	file:
+g_next_packet_time	./ot_livesync.c	/^static ot_time  g_next_packet_time;$/;"	v	file:
+g_next_packet_time	./proxy.c	/^static ot_time  g_next_packet_time;$/;"	v	file:
+g_now_minutes	./trackerlogic.h	62;"	d
+g_now_seconds	./opentracker.c	/^time_t       g_now_seconds;$/;"	v
+g_now_seconds	./trackerlogic.h	/^extern time_t g_now_seconds;$/;"	x
+g_opentracker_running	./opentracker.c	/^volatile int g_opentracker_running = 1;$/;"	v
+g_opentracker_running	./trackerlogic.h	/^extern volatile int g_opentracker_running;$/;"	x
+g_outbuf	./ot_livesync.c	/^char            g_outbuf[LIVESYNC_OUTGOING_BUFFSIZE_PEERS];$/;"	v
+g_outbuf_data	./ot_livesync.c	/^static size_t   g_outbuf_data;$/;"	v	file:
+g_peerbuffer_highwater	./proxy.c	/^static uint8_t *g_peerbuffer_highwater = g_peerbuffer_start + LIVESYNC_OUTGOING_BUFFSIZE_PEERS - LIVESYNC_OUTGOING_WATERMARK_PEERS;$/;"	v	file:
+g_peerbuffer_pos	./proxy.c	/^static uint8_t *g_peerbuffer_pos;$/;"	v	file:
+g_peerbuffer_start	./proxy.c	/^static uint8_t  g_peerbuffer_start[LIVESYNC_OUTGOING_BUFFSIZE_PEERS];$/;"	v	file:
+g_proxies_list	./ot_accesslist.c	/^static ot_vector g_proxies_list;$/;"	v	file:
+g_proxies_list_mutex	./ot_accesslist.c	/^static pthread_mutex_t g_proxies_list_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+g_redirecturl	./opentracker.c	/^char *       g_redirecturl;$/;"	v
+g_redirecturl	./ot_http.c	/^extern char *g_redirecturl;$/;"	x
+g_rijndael_round_key	./ot_udp.c	/^static uint32_t g_rijndael_round_key[44] = {0};$/;"	v	file:
+g_self_pipe	./opentracker.c	/^int          g_self_pipe[2];$/;"	v
+g_self_pipe	./ot_mutex.c	/^extern int g_self_pipe[2];$/;"	x
+g_self_pipe	./proxy.c	/^int      g_self_pipe[2];$/;"	v
+g_serverdir	./opentracker.c	/^static char * g_serverdir;$/;"	v	file:
+g_serverip	./proxy.c	/^ot_ip6   g_serverip;$/;"	v
+g_serverport	./proxy.c	/^uint16_t g_serverport = 9009;$/;"	v
+g_serveruser	./opentracker.c	/^static char * g_serveruser;$/;"	v	file:
+g_socket_in	./ot_livesync.c	/^static int64    g_socket_in = -1;$/;"	v	file:
+g_socket_in	./proxy.c	/^static int64    g_socket_in = -1;$/;"	v	file:
+g_socket_out	./ot_livesync.c	/^static int64    g_socket_out = -1;$/;"	v	file:
+g_socket_out	./proxy.c	/^static int64    g_socket_out = -1;$/;"	v	file:
+g_static_connid	./ot_udp.c	/^static const uint8_t g_static_connid[8] = { 0x23, 0x42, 0x05, 0x17, 0xde, 0x41, 0x50, 0xff };$/;"	v	file:
+g_stats_path	./ot_http.c	/^char   *g_stats_path;$/;"	v
+g_stats_path	./ot_http.h	/^extern char   *g_stats_path;$/;"	x
+g_stats_path_len	./ot_http.c	/^ssize_t g_stats_path_len;$/;"	v
+g_stats_path_len	./ot_http.h	/^extern ssize_t g_stats_path_len;$/;"	x
+g_torrent_count	./ot_mutex.c	/^static size_t    g_torrent_count;$/;"	v	file:
+g_tracker_id	./opentracker.c	/^uint32_t     g_tracker_id;$/;"	v
+g_tracker_id	./proxy.c	/^uint32_t g_tracker_id;$/;"	v
+g_tracker_id	./trackerlogic.h	/^extern uint32_t g_tracker_id;$/;"	x
+g_udp_workers	./opentracker.c	/^static unsigned int g_udp_workers;$/;"	v	file:
+g_version_accesslist_c	./ot_accesslist.c	/^const char *g_version_accesslist_c = "$Source: \/home\/cvsroot\/opentracker\/ot_accesslist.c,v $: $Revision: 1.31 $\\n";$/;"	v
+g_version_accesslist_c	./ot_stats.c	/^*g_version_opentracker_c, *g_version_accesslist_c, *g_version_clean_c, *g_version_fullscrape_c, *g_version_http_c,$/;"	x
+g_version_clean_c	./ot_clean.c	/^const char *g_version_clean_c = "$Source: \/home\/cvsroot\/opentracker\/ot_clean.c,v $: $Revision: 1.21 $\\n";$/;"	v
+g_version_clean_c	./ot_stats.c	/^*g_version_opentracker_c, *g_version_accesslist_c, *g_version_clean_c, *g_version_fullscrape_c, *g_version_http_c,$/;"	x
+g_version_fullscrape_c	./ot_fullscrape.c	/^const char *g_version_fullscrape_c = "$Source: \/home\/cvsroot\/opentracker\/ot_fullscrape.c,v $: $Revision: 1.36 $\\n";$/;"	v
+g_version_fullscrape_c	./ot_stats.c	/^*g_version_opentracker_c, *g_version_accesslist_c, *g_version_clean_c, *g_version_fullscrape_c, *g_version_http_c,$/;"	x
+g_version_http_c	./ot_http.c	/^const char *g_version_http_c = "$Source: \/home\/cvsroot\/opentracker\/ot_http.c,v $: $Revision: 1.53 $\\n";$/;"	v
+g_version_http_c	./ot_stats.c	/^*g_version_opentracker_c, *g_version_accesslist_c, *g_version_clean_c, *g_version_fullscrape_c, *g_version_http_c,$/;"	x
+g_version_iovec_c	./ot_iovec.c	/^const char *g_version_iovec_c = "$Source: \/home\/cvsroot\/opentracker\/ot_iovec.c,v $: $Revision: 1.6 $\\n";$/;"	v
+g_version_iovec_c	./ot_stats.c	/^*g_version_iovec_c, *g_version_mutex_c, *g_version_stats_c, *g_version_udp_c, *g_version_vector_c,$/;"	x
+g_version_livesync_c	./ot_livesync.c	/^const char *g_version_livesync_c = "$Source: \/home\/cvsroot\/opentracker\/ot_livesync.c,v $: $Revision: 1.18 $\\n";$/;"	v
+g_version_livesync_c	./ot_stats.c	/^*g_version_scan_urlencoded_query_c, *g_version_trackerlogic_c, *g_version_livesync_c, *g_version_rijndael_c;$/;"	x
+g_version_mutex_c	./ot_mutex.c	/^const char *g_version_mutex_c = "$Source: \/home\/cvsroot\/opentracker\/ot_mutex.c,v $: $Revision: 1.23 $\\n";$/;"	v
+g_version_mutex_c	./ot_stats.c	/^*g_version_iovec_c, *g_version_mutex_c, *g_version_stats_c, *g_version_udp_c, *g_version_vector_c,$/;"	x
+g_version_opentracker_c	./opentracker.c	/^const char *g_version_opentracker_c = "$Source: \/home\/cvsroot\/opentracker\/opentracker.c,v $: $Revision: 1.238 $\\n";$/;"	v
+g_version_opentracker_c	./ot_stats.c	/^*g_version_opentracker_c, *g_version_accesslist_c, *g_version_clean_c, *g_version_fullscrape_c, *g_version_http_c,$/;"	x
+g_version_rijndael_c	./ot_rijndael.c	/^const char *g_version_rijndael_c = "$Source: \/home\/cvsroot\/opentracker\/ot_rijndael.c,v $: $Revision: 1.2 $\\n";$/;"	v
+g_version_rijndael_c	./ot_stats.c	/^*g_version_scan_urlencoded_query_c, *g_version_trackerlogic_c, *g_version_livesync_c, *g_version_rijndael_c;$/;"	x
+g_version_scan_urlencoded_query_c	./ot_stats.c	/^*g_version_scan_urlencoded_query_c, *g_version_trackerlogic_c, *g_version_livesync_c, *g_version_rijndael_c;$/;"	x
+g_version_scan_urlencoded_query_c	./scan_urlencoded_query.c	/^const char *g_version_scan_urlencoded_query_c = "$Source: \/home\/cvsroot\/opentracker\/scan_urlencoded_query.c,v $: $Revision: 1.34 $\\n";$/;"	v
+g_version_stats_c	./ot_stats.c	/^*g_version_iovec_c, *g_version_mutex_c, *g_version_stats_c, *g_version_udp_c, *g_version_vector_c,$/;"	x
+g_version_stats_c	./ot_stats.c	/^const char *g_version_stats_c = "$Source: \/home\/cvsroot\/opentracker\/ot_stats.c,v $: $Revision: 1.72 $\\n";$/;"	v
+g_version_sync_c	./ot_sync.c	/^const char *g_version_sync_c = "$Source: \/home\/cvsroot\/opentracker\/ot_sync.c,v $: $Revision: 1.9 $\\n";$/;"	v
+g_version_trackerlogic_c	./ot_stats.c	/^*g_version_scan_urlencoded_query_c, *g_version_trackerlogic_c, *g_version_livesync_c, *g_version_rijndael_c;$/;"	x
+g_version_trackerlogic_c	./trackerlogic.c	/^const char *g_version_trackerlogic_c = "$Source: \/home\/cvsroot\/opentracker\/trackerlogic.c,v $: $Revision: 1.138 $\\n";$/;"	v
+g_version_udp_c	./ot_stats.c	/^*g_version_iovec_c, *g_version_mutex_c, *g_version_stats_c, *g_version_udp_c, *g_version_vector_c,$/;"	x
+g_version_udp_c	./ot_udp.c	/^const char *g_version_udp_c = "$Source: \/home\/cvsroot\/opentracker\/ot_udp.c,v $: $Revision: 1.30 $\\n";$/;"	v
+g_version_vector_c	./ot_stats.c	/^*g_version_iovec_c, *g_version_mutex_c, *g_version_stats_c, *g_version_udp_c, *g_version_vector_c,$/;"	x
+g_version_vector_c	./ot_vector.c	/^const char *g_version_vector_c = "$Source: \/home\/cvsroot\/opentracker\/ot_vector.c,v $: $Revision: 1.19 $\\n";$/;"	v
+g_woodpeckers_mutex	./ot_stats.c	/^static pthread_mutex_t g_woodpeckers_mutex = PTHREAD_MUTEX_INITIALIZER;$/;"	v	file:
+get_value_for_net	./ot_accesslist.c	/^void *get_value_for_net( const ot_ip6 address, const ot_vector *vector, const size_t member_size ) {$/;"	f	signature:( const ot_ip6 address, const ot_vector *vector, const size_t member_size )
+get_value_for_net	./ot_accesslist.h	/^void *get_value_for_net( const ot_ip6 address, const ot_vector *vector, const size_t member_size );$/;"	p	signature:( const ot_ip6 address, const ot_vector *vector, const size_t member_size )
+groupip_1	./ot_livesync.c	/^char groupip_1[4] = { 224,0,23,5 };$/;"	v
+groupip_1	./proxy.c	/^char     groupip_1[4] = { 224,0,23,5 };$/;"	v
+handle_accept	./opentracker.c	/^static void handle_accept( const int64 serversocket ) {$/;"	f	file:	signature:( const int64 serversocket )
+handle_accept	./proxy.c	/^static void handle_accept( int64 serversocket ) {$/;"	f	file:	signature:( int64 serversocket )
+handle_dead	./opentracker.c	/^static void handle_dead( const int64 sock ) {$/;"	f	file:	signature:( const int64 sock )
+handle_livesync	./ot_livesync.h	/^void handle_livesync( const int64 sock );$/;"	p	signature:( const int64 sock )
+handle_livesync	./ot_livesync.h	68;"	d
+handle_read	./opentracker.c	/^static void handle_read( const int64 sock, struct ot_workstruct *ws ) {$/;"	f	file:	signature:( const int64 sock, struct ot_workstruct *ws )
+handle_read	./proxy.c	/^static void handle_read( int64 peersocket ) {$/;"	f	file:	signature:( int64 peersocket )
+handle_reconnects	./proxy.c	/^static void handle_reconnects( void ) {$/;"	f	file:	signature:( void )
+handle_udp6	./ot_udp.c	/^int handle_udp6( int64 serversocket, struct ot_workstruct *ws ) {$/;"	f	signature:( int64 serversocket, struct ot_workstruct *ws )
+handle_udp6	./ot_udp.h	/^int  handle_udp6( int64 serversocket, struct ot_workstruct *ws );$/;"	p	signature:( int64 serversocket, struct ot_workstruct *ws )
+handle_write	./opentracker.c	/^static void handle_write( const int64 sock ) {$/;"	f	file:	signature:( const int64 sock )
+handle_write	./proxy.c	/^static void handle_write( int64 peersocket ) {$/;"	f	file:	signature:( int64 peersocket )
+hash	./trackerlogic.h	/^  ot_hash      hash;$/;"	m	struct:__anon4	access:public
+hash	./trackerlogic.h	/^  ot_hash *hash;$/;"	m	struct:ot_workstruct	access:public
+header_complete	./opentracker.c	/^static size_t header_complete( char * request, ssize_t byte_count ) {$/;"	f	file:	signature:( char * request, ssize_t byte_count )
+header_size	./trackerlogic.h	/^  ssize_t  header_size;$/;"	m	struct:ot_workstruct	access:public
+help	./opentracker.c	/^static void help( char *name ) {$/;"	f	file:	signature:( char *name )
+http_data	./ot_http.h	/^struct http_data {$/;"	s
+http_data::batch	./ot_http.h	/^  io_batch         batch;$/;"	m	struct:http_data	access:public
+http_data::flag	./ot_http.h	/^  STRUCT_HTTP_FLAG flag;$/;"	m	struct:http_data	access:public
+http_data::ip	./ot_http.h	/^  ot_ip6           ip;$/;"	m	struct:http_data	access:public
+http_data::request	./ot_http.h	/^  array            request;$/;"	m	struct:http_data	access:public
+http_handle_announce	./ot_http.c	/^static ssize_t http_handle_announce( const int64 sock, struct ot_workstruct *ws, char *read_ptr ) {$/;"	f	file:	signature:( const int64 sock, struct ot_workstruct *ws, char *read_ptr )
+http_handle_fullscrape	./ot_http.c	/^static ssize_t http_handle_fullscrape( const int64 sock, struct ot_workstruct *ws ) {$/;"	f	file:	signature:( const int64 sock, struct ot_workstruct *ws )
+http_handle_request	./ot_http.c	/^ssize_t http_handle_request( const int64 sock, struct ot_workstruct *ws ) {$/;"	f	signature:( const int64 sock, struct ot_workstruct *ws )
+http_handle_request	./ot_http.h	/^ssize_t http_handle_request( const int64 s, struct ot_workstruct *ws );$/;"	p	signature:( const int64 s, struct ot_workstruct *ws )
+http_handle_scrape	./ot_http.c	/^static ssize_t http_handle_scrape( const int64 sock, struct ot_workstruct *ws, char *read_ptr ) {$/;"	f	file:	signature:( const int64 sock, struct ot_workstruct *ws, char *read_ptr )
+http_handle_stats	./ot_http.c	/^static ssize_t http_handle_stats( const int64 sock, struct ot_workstruct *ws, char *read_ptr ) {$/;"	f	file:	signature:( const int64 sock, struct ot_workstruct *ws, char *read_ptr )
+http_header	./ot_http.c	/^static char* http_header( char *data, size_t byte_count, char *header ) {$/;"	f	file:	signature:( char *data, size_t byte_count, char *header )
+http_issue_error	./ot_http.c	/^ssize_t http_issue_error( const int64 sock, struct ot_workstruct *ws, int code ) {$/;"	f	signature:( const int64 sock, struct ot_workstruct *ws, int code )
+http_issue_error	./ot_http.h	/^ssize_t http_issue_error( const int64 s, struct ot_workstruct *ws, int code );$/;"	p	signature:( const int64 s, struct ot_workstruct *ws, int code )
+http_senddata	./ot_http.c	/^static void http_senddata( const int64 sock, struct ot_workstruct *ws ) {$/;"	f	file:	signature:( const int64 sock, struct ot_workstruct *ws )
+http_sendiovecdata	./ot_http.c	/^ssize_t http_sendiovecdata( const int64 sock, struct ot_workstruct *ws, int iovec_entries, struct iovec *iovector ) {$/;"	f	signature:( const int64 sock, struct ot_workstruct *ws, int iovec_entries, struct iovec *iovector )
+http_sendiovecdata	./ot_http.h	/^ssize_t http_sendiovecdata( const int64 s, struct ot_workstruct *ws, int iovec_entries, struct iovec *iovector );$/;"	p	signature:( const int64 s, struct ot_workstruct *ws, int iovec_entries, struct iovec *iovector )
+inbuf	./trackerlogic.h	/^  char    *inbuf;$/;"	m	struct:ot_workstruct	access:public
+indata	./proxy.c	/^  uint8_t  indata[8192*16]; \/* Any data not processed yet *\/$/;"	m	struct:__anon11	file:	access:public
+indata_length	./proxy.c	/^  size_t   indata_length;   \/* Length of unprocessed data *\/$/;"	m	struct:__anon11	file:	access:public
+install_signal_handlers	./opentracker.c	/^static void install_signal_handlers( void ) {$/;"	f	file:	signature:( void )
+iovec	./ot_mutex.c	/^  struct iovec   *iovec;$/;"	m	struct:ot_task	typeref:struct:ot_task::iovec	file:	access:public
+iovec_entries	./ot_mutex.c	/^  int             iovec_entries;$/;"	m	struct:ot_task	file:	access:public
+iovec_fix_increase_or_free	./ot_iovec.c	/^void  *iovec_fix_increase_or_free( int *iovec_entries, struct iovec **iovector, void *last_ptr, size_t new_alloc ) {$/;"	f	signature:( int *iovec_entries, struct iovec **iovector, void *last_ptr, size_t new_alloc )
+iovec_fix_increase_or_free	./ot_iovec.h	/^void  *iovec_fix_increase_or_free( int *iovec_entries, struct iovec **iovector, void *last_ptr, size_t new_alloc );$/;"	p	signature:( int *iovec_entries, struct iovec **iovector, void *last_ptr, size_t new_alloc )
+iovec_fixlast	./ot_iovec.c	/^void  iovec_fixlast( int *iovec_entries, struct iovec **iovector, void *last_ptr ) {$/;"	f	signature:( int *iovec_entries, struct iovec **iovector, void *last_ptr )
+iovec_fixlast	./ot_iovec.h	/^void   iovec_fixlast( int *iovec_entries, struct iovec **iovector, void *last_ptr );$/;"	p	signature:( int *iovec_entries, struct iovec **iovector, void *last_ptr )
+iovec_free	./ot_iovec.c	/^void iovec_free( int *iovec_entries, struct iovec **iovector ) {$/;"	f	signature:( int *iovec_entries, struct iovec **iovector )
+iovec_free	./ot_iovec.h	/^void   iovec_free( int *iovec_entries, struct iovec **iovector );$/;"	p	signature:( int *iovec_entries, struct iovec **iovector )
+iovec_increase	./ot_iovec.c	/^void *iovec_increase( int *iovec_entries, struct iovec **iovector, size_t new_alloc ) {$/;"	f	signature:( int *iovec_entries, struct iovec **iovector, size_t new_alloc )
+iovec_increase	./ot_iovec.h	/^void  *iovec_increase( int *iovec_entries, struct iovec **iovector, size_t new_alloc );$/;"	p	signature:( int *iovec_entries, struct iovec **iovector, size_t new_alloc )
+iovec_length	./ot_iovec.c	/^size_t iovec_length( int *iovec_entries, struct iovec **iovector ) {$/;"	f	signature:( int *iovec_entries, struct iovec **iovector )
+iovec_length	./ot_iovec.h	/^size_t iovec_length( int *iovec_entries, struct iovec **iovector );$/;"	p	signature:( int *iovec_entries, struct iovec **iovector )
+ip	./ot_accesslist.h	/^  ot_ip6   ip;$/;"	m	struct:ot_log	access:public
+ip	./ot_http.c	/^typedef struct { ot_ip6 ip; ot_time last_fullscrape; } ot_scrape_log;$/;"	m	struct:__anon19	file:	access:public
+ip	./ot_http.h	/^  ot_ip6           ip;$/;"	m	struct:http_data	access:public
+ip	./proxy.c	/^  ot_ip6   ip;              \/* The peer to connect to *\/$/;"	m	struct:__anon11	file:	access:public
+is_unreserved	./scan_urlencoded_query.c	/^static const unsigned char is_unreserved[256] = {$/;"	v	file:
+iterate_all_torrents	./trackerlogic.c	/^void iterate_all_torrents( int (*for_each)( ot_torrent* torrent, uintptr_t data ), uintptr_t data ) {$/;"	f	signature:( int (*for_each)( ot_torrent* torrent, uintptr_t data ), uintptr_t data )
+iterate_all_torrents	./trackerlogic.h	/^void iterate_all_torrents( int (*for_each)( ot_torrent* torrent, uintptr_t data ), uintptr_t data );$/;"	p	signature:( int (*for_each)( ot_torrent* torrent, uintptr_t data ), uintptr_t data )
+keep_alive	./trackerlogic.h	/^  int      keep_alive;$/;"	m	struct:ot_workstruct	access:public
+key	./scan_urlencoded_query.h	/^  char *key;$/;"	m	struct:__anon21	access:public
+keywords_announce	./ot_http.c	/^static ot_keywords keywords_announce[] = { { "port", 1 }, { "left", 2 }, { "event", 3 }, { "numwant", 4 }, { "compact", 5 }, { "compact6", 5 }, { "info_hash", 6 },$/;"	v	file:
+keywords_announce_event	./ot_http.c	/^static ot_keywords keywords_announce_event[] = { { "completed", 1 }, { "stopped", 2 }, { NULL, -3 } };$/;"	v	file:
+last_fullscrape	./ot_http.c	/^typedef struct { ot_ip6 ip; ot_time last_fullscrape; } ot_scrape_log;$/;"	m	struct:__anon19	file:	access:public
+livesync_bind_mcast	./ot_livesync.c	/^void livesync_bind_mcast( ot_ip6 ip, uint16_t port) {$/;"	f	signature:( ot_ip6 ip, uint16_t port)
+livesync_bind_mcast	./ot_livesync.h	/^void livesync_bind_mcast( char *ip, uint16_t port );$/;"	p	signature:( char *ip, uint16_t port )
+livesync_bind_mcast	./proxy.c	/^void livesync_bind_mcast( ot_ip6 ip, uint16_t port) {$/;"	f	signature:( ot_ip6 ip, uint16_t port)
+livesync_deinit	./ot_livesync.c	/^void livesync_deinit() {$/;"	f
+livesync_deinit	./ot_livesync.h	/^void livesync_deinit();$/;"	p	signature:()
+livesync_deinit	./ot_livesync.h	65;"	d
+livesync_handle_peersync	./ot_livesync.c	/^static void livesync_handle_peersync( struct ot_workstruct *ws ) {$/;"	f	file:	signature:( struct ot_workstruct *ws )
+livesync_handle_peersync	./proxy.c	/^static void livesync_handle_peersync( ssize_t datalen ) {$/;"	f	file:	signature:( ssize_t datalen )
+livesync_init	./ot_livesync.c	/^void livesync_init( ) {$/;"	f
+livesync_init	./ot_livesync.h	/^void livesync_init();$/;"	p	signature:()
+livesync_init	./ot_livesync.h	66;"	d
+livesync_issue_peersync	./ot_livesync.c	/^static void livesync_issue_peersync( ) {$/;"	f	file:
+livesync_issue_peersync	./proxy.c	/^static void livesync_issue_peersync( ) {$/;"	f	file:
+livesync_proxytell	./proxy.c	/^static void   livesync_proxytell( uint8_t prefix, uint8_t *info_hash, uint8_t *peer );$/;"	p	file:	signature:( uint8_t prefix, uint8_t *info_hash, uint8_t *peer )
+livesync_proxytell	./proxy.c	/^static void livesync_proxytell( uint8_t prefix, uint8_t *info_hash, uint8_t *peer ) {$/;"	f	file:	signature:( uint8_t prefix, uint8_t *info_hash, uint8_t *peer )
+livesync_tell	./ot_livesync.c	/^void livesync_tell( struct ot_workstruct *ws ) {$/;"	f	signature:( struct ot_workstruct *ws )
+livesync_tell	./ot_livesync.h	/^void livesync_tell( struct ot_workstruct *ws );$/;"	p	signature:( struct ot_workstruct *ws )
+livesync_ticker	./ot_livesync.c	/^void livesync_ticker( ) {$/;"	f
+livesync_ticker	./ot_livesync.h	/^void livesync_ticker( );$/;"	p	signature:( )
+livesync_ticker	./ot_livesync.h	67;"	d
+livesync_ticker	./proxy.c	/^void livesync_ticker( ) {$/;"	f
+livesync_worker	./ot_livesync.c	/^static void * livesync_worker( void * args ) {$/;"	f	file:	signature:( void * args )
+livesync_worker	./ot_livesync.c	/^static void * livesync_worker( void * args );$/;"	p	file:	signature:( void * args )
+livesync_worker	./proxy.c	/^static void * livesync_worker( void * args ) {$/;"	f	file:	signature:( void * args )
+livesync_worker	./proxy.c	/^static void * livesync_worker( void * args );$/;"	p	file:	signature:( void * args )
+load_state	./opentracker.c	/^void load_state(const char * const state_filename ) {$/;"	f	signature:(const char * const state_filename )
+loglist_add_network	./ot_accesslist.c	/^void loglist_add_network( const ot_net *net ) {$/;"	f	signature:( const ot_net *net )
+loglist_add_network	./ot_accesslist.h	/^void loglist_add_network( const ot_net *net );$/;"	p	signature:( const ot_net *net )
+loglist_check_address	./ot_accesslist.c	/^int loglist_check_address( const ot_ip6 address ) {$/;"	f	signature:( const ot_ip6 address )
+loglist_check_address	./ot_accesslist.h	/^int  loglist_check_address( const ot_ip6 address );$/;"	p	signature:( const ot_ip6 address )
+loglist_reset	./ot_accesslist.c	/^void loglist_reset( ) {$/;"	f
+loglist_reset	./ot_accesslist.h	/^void loglist_reset( );$/;"	p	signature:( )
+main	./opentracker.c	/^int main( int argc, char **argv ) {$/;"	f	signature:( int argc, char **argv )
+main	./proxy.c	/^int main( int argc, char **argv ) {$/;"	f	signature:( int argc, char **argv )
+mutex_bucket_lock	./ot_mutex.c	/^ot_vector *mutex_bucket_lock( int bucket ) {$/;"	f	signature:( int bucket )
+mutex_bucket_lock	./ot_mutex.h	/^ot_vector *mutex_bucket_lock( int bucket );$/;"	p	signature:( int bucket )
+mutex_bucket_lock_by_hash	./ot_mutex.c	/^ot_vector *mutex_bucket_lock_by_hash( ot_hash hash ) {$/;"	f	signature:( ot_hash hash )
+mutex_bucket_lock_by_hash	./ot_mutex.h	/^ot_vector *mutex_bucket_lock_by_hash( ot_hash hash );$/;"	p	signature:( ot_hash hash )
+mutex_bucket_unlock	./ot_mutex.c	/^void mutex_bucket_unlock( int bucket, int delta_torrentcount ) {$/;"	f	signature:( int bucket, int delta_torrentcount )
+mutex_bucket_unlock	./ot_mutex.h	/^void mutex_bucket_unlock( int bucket, int delta_torrentcount );$/;"	p	signature:( int bucket, int delta_torrentcount )
+mutex_bucket_unlock_by_hash	./ot_mutex.c	/^void mutex_bucket_unlock_by_hash( ot_hash hash, int delta_torrentcount ) {$/;"	f	signature:( ot_hash hash, int delta_torrentcount )
+mutex_bucket_unlock_by_hash	./ot_mutex.h	/^void mutex_bucket_unlock_by_hash( ot_hash hash, int delta_torrentcount );$/;"	p	signature:( ot_hash hash, int delta_torrentcount )
+mutex_deinit	./ot_mutex.c	/^void mutex_deinit( ) {$/;"	f
+mutex_deinit	./ot_mutex.h	/^void mutex_deinit( );$/;"	p	signature:( )
+mutex_get_torrent_count	./ot_mutex.c	/^size_t mutex_get_torrent_count( ) {$/;"	f
+mutex_get_torrent_count	./ot_mutex.h	/^size_t mutex_get_torrent_count();$/;"	p	signature:()
+mutex_init	./ot_mutex.c	/^void mutex_init( ) {$/;"	f
+mutex_init	./ot_mutex.h	/^void mutex_init( );$/;"	p	signature:( )
+mutex_workqueue_canceltask	./ot_mutex.c	/^void mutex_workqueue_canceltask( int64 sock ) {$/;"	f	signature:( int64 sock )
+mutex_workqueue_canceltask	./ot_mutex.h	/^void      mutex_workqueue_canceltask( int64 sock );$/;"	p	signature:( int64 sock )
+mutex_workqueue_popresult	./ot_mutex.c	/^int64 mutex_workqueue_popresult( int *iovec_entries, struct iovec ** iovec ) {$/;"	f	signature:( int *iovec_entries, struct iovec ** iovec )
+mutex_workqueue_popresult	./ot_mutex.h	/^int64     mutex_workqueue_popresult( int *iovec_entries, struct iovec ** iovector );$/;"	p	signature:( int *iovec_entries, struct iovec ** iovector )
+mutex_workqueue_poptask	./ot_mutex.c	/^ot_taskid mutex_workqueue_poptask( ot_tasktype *tasktype ) {$/;"	f	signature:( ot_tasktype *tasktype )
+mutex_workqueue_poptask	./ot_mutex.h	/^ot_taskid mutex_workqueue_poptask( ot_tasktype *tasktype );$/;"	p	signature:( ot_tasktype *tasktype )
+mutex_workqueue_pushresult	./ot_mutex.c	/^int mutex_workqueue_pushresult( ot_taskid taskid, int iovec_entries, struct iovec *iovec ) {$/;"	f	signature:( ot_taskid taskid, int iovec_entries, struct iovec *iovec )
+mutex_workqueue_pushresult	./ot_mutex.h	/^int       mutex_workqueue_pushresult( ot_taskid taskid, int iovec_entries, struct iovec *iovector );$/;"	p	signature:( ot_taskid taskid, int iovec_entries, struct iovec *iovector )
+mutex_workqueue_pushsuccess	./ot_mutex.c	/^void mutex_workqueue_pushsuccess( ot_taskid taskid ) {$/;"	f	signature:( ot_taskid taskid )
+mutex_workqueue_pushsuccess	./ot_mutex.h	/^void      mutex_workqueue_pushsuccess( ot_taskid taskid );$/;"	p	signature:( ot_taskid taskid )
+mutex_workqueue_pushtask	./ot_mutex.c	/^int mutex_workqueue_pushtask( int64 sock, ot_tasktype tasktype ) {$/;"	f	signature:( int64 sock, ot_tasktype tasktype )
+mutex_workqueue_pushtask	./ot_mutex.h	/^int       mutex_workqueue_pushtask( int64 sock, ot_tasktype tasktype );$/;"	p	signature:( int64 sock, ot_tasktype tasktype )
+networks	./ot_accesslist.c	/^  ot_vector  networks;$/;"	m	struct:__anon7	file:	access:public
+next	./ot_accesslist.h	/^  ot_log  *next;$/;"	m	struct:ot_log	access:public
+next	./ot_mutex.c	/^  struct ot_task *next;$/;"	m	struct:ot_task	typeref:struct:ot_task::ot_task	file:	access:public
+next_free_taskid	./ot_mutex.c	/^static ot_taskid next_free_taskid = 1;$/;"	v	file:
+numwants	./ot_http.c	/^  unsigned long long numwants[201];$/;"	v
+numwants	./ot_stats.c	/^extern unsigned long long numwants[201];$/;"	x
+ot_failed_request_counts	./ot_stats.c	/^static unsigned long long ot_failed_request_counts[CODE_HTTPERROR_COUNT];$/;"	v	file:
+ot_failed_request_names	./ot_stats.c	/^static char *             ot_failed_request_names[] = { "302 Redirect", "400 Parse Error", "400 Invalid Parameter", "400 Invalid Parameter (compact=0)", "400 Not Modest", "403 Access Denied", "404 Not found", "500 Internal Server Error" };$/;"	v	file:
+ot_full_scrape_count	./ot_stats.c	/^static unsigned long long ot_full_scrape_count = 0;$/;"	v	file:
+ot_full_scrape_request_count	./ot_stats.c	/^static unsigned long long ot_full_scrape_request_count = 0;$/;"	v	file:
+ot_full_scrape_size	./ot_stats.c	/^static unsigned long long ot_full_scrape_size = 0;$/;"	v	file:
+ot_hash	./trackerlogic.h	/^typedef uint8_t ot_hash[20];$/;"	t
+ot_ip6	./trackerlogic.h	/^typedef char    ot_ip6[16];$/;"	t
+ot_keywords	./scan_urlencoded_query.h	/^} ot_keywords;$/;"	t	typeref:struct:__anon21
+ot_log	./ot_accesslist.h	/^struct ot_log {$/;"	s
+ot_log	./ot_accesslist.h	/^typedef struct ot_log ot_log;$/;"	t	typeref:struct:ot_log
+ot_log::data	./ot_accesslist.h	/^  uint8_t *data;$/;"	m	struct:ot_log	access:public
+ot_log::ip	./ot_accesslist.h	/^  ot_ip6   ip;$/;"	m	struct:ot_log	access:public
+ot_log::next	./ot_accesslist.h	/^  ot_log  *next;$/;"	m	struct:ot_log	access:public
+ot_log::size	./ot_accesslist.h	/^  size_t   size;$/;"	m	struct:ot_log	access:public
+ot_log::time	./ot_accesslist.h	/^  ot_time  time;$/;"	m	struct:ot_log	access:public
+ot_net	./trackerlogic.h	/^                ot_net;$/;"	t	typeref:struct:__anon1
+ot_overall_completed	./ot_stats.c	/^static unsigned long long ot_overall_completed = 0;$/;"	v	file:
+ot_overall_stall_count	./ot_stats.c	/^static unsigned long long ot_overall_stall_count;$/;"	v	file:
+ot_overall_sync_count	./ot_stats.c	/^static unsigned long long ot_overall_sync_count;$/;"	v	file:
+ot_overall_tcp_connections	./ot_stats.c	/^static unsigned long long ot_overall_tcp_connections = 0;$/;"	v	file:
+ot_overall_tcp_connects	./ot_stats.c	/^static unsigned long long ot_overall_tcp_connects = 0;$/;"	v	file:
+ot_overall_tcp_successfulannounces	./ot_stats.c	/^static unsigned long long ot_overall_tcp_successfulannounces = 0;$/;"	v	file:
+ot_overall_tcp_successfulscrapes	./ot_stats.c	/^static unsigned long long ot_overall_tcp_successfulscrapes = 0;$/;"	v	file:
+ot_overall_udp_connectionidmissmatches	./ot_stats.c	/^static unsigned long long ot_overall_udp_connectionidmissmatches = 0;$/;"	v	file:
+ot_overall_udp_connections	./ot_stats.c	/^static unsigned long long ot_overall_udp_connections = 0;$/;"	v	file:
+ot_overall_udp_connects	./ot_stats.c	/^static unsigned long long ot_overall_udp_connects = 0;$/;"	v	file:
+ot_overall_udp_successfulannounces	./ot_stats.c	/^static unsigned long long ot_overall_udp_successfulannounces = 0;$/;"	v	file:
+ot_overall_udp_successfulscrapes	./ot_stats.c	/^static unsigned long long ot_overall_udp_successfulscrapes = 0;$/;"	v	file:
+ot_peer	./trackerlogic.h	/^} ot_peer;$/;"	t	typeref:struct:__anon3
+ot_peerlist	./trackerlogic.h	/^struct ot_peerlist {$/;"	s
+ot_peerlist	./trackerlogic.h	/^struct ot_peerlist;$/;"	x
+ot_peerlist	./trackerlogic.h	/^typedef struct ot_peerlist ot_peerlist;$/;"	t	typeref:struct:ot_peerlist
+ot_peerlist::base	./trackerlogic.h	/^  ot_time        base;$/;"	m	struct:ot_peerlist	access:public
+ot_peerlist::down_count	./trackerlogic.h	/^  size_t         down_count;$/;"	m	struct:ot_peerlist	access:public
+ot_peerlist::peer_count	./trackerlogic.h	/^  size_t         peer_count;$/;"	m	struct:ot_peerlist	access:public
+ot_peerlist::peers	./trackerlogic.h	/^  ot_vector      peers;$/;"	m	struct:ot_peerlist	access:public
+ot_peerlist::seed_count	./trackerlogic.h	/^  size_t         seed_count;$/;"	m	struct:ot_peerlist	access:public
+ot_permissions	./ot_accesslist.h	/^} ot_permissions;$/;"	t	typeref:enum:__anon20
+ot_proxymap	./ot_accesslist.c	/^} ot_proxymap;$/;"	t	typeref:struct:__anon7	file:
+ot_record	./ot_stats.c	/^typedef struct { size_t val; ot_torrent * torrent; } ot_record;$/;"	t	typeref:struct:__anon17	file:
+ot_renewed	./ot_stats.c	/^static unsigned long long ot_renewed[OT_PEER_TIMEOUT];$/;"	v	file:
+ot_scrape_log	./ot_http.c	/^typedef struct { ot_ip6 ip; ot_time last_fullscrape; } ot_scrape_log;$/;"	t	typeref:struct:__anon19	file:
+ot_start_time	./ot_stats.c	/^static time_t ot_start_time;$/;"	v	file:
+ot_status_event	./ot_stats.h	/^} ot_status_event;$/;"	t	typeref:enum:__anon5
+ot_task	./ot_mutex.c	/^struct ot_task {$/;"	s	file:
+ot_task::iovec	./ot_mutex.c	/^  struct iovec   *iovec;$/;"	m	struct:ot_task	typeref:struct:ot_task::iovec	file:	access:public
+ot_task::iovec_entries	./ot_mutex.c	/^  int             iovec_entries;$/;"	m	struct:ot_task	file:	access:public
+ot_task::next	./ot_mutex.c	/^  struct ot_task *next;$/;"	m	struct:ot_task	typeref:struct:ot_task::ot_task	file:	access:public
+ot_task::sock	./ot_mutex.c	/^  int64           sock;$/;"	m	struct:ot_task	file:	access:public
+ot_task::taskid	./ot_mutex.c	/^  ot_taskid       taskid;$/;"	m	struct:ot_task	file:	access:public
+ot_task::tasktype	./ot_mutex.c	/^  ot_tasktype     tasktype;$/;"	m	struct:ot_task	file:	access:public
+ot_taskid	./ot_mutex.h	/^typedef unsigned long ot_taskid;$/;"	t
+ot_tasktype	./ot_mutex.h	/^} ot_tasktype;$/;"	t	typeref:enum:__anon23
+ot_time	./trackerlogic.h	/^typedef time_t  ot_time;$/;"	t
+ot_torrent	./trackerlogic.h	/^} ot_torrent;$/;"	t	typeref:struct:__anon4
+ot_try_bind	./opentracker.c	/^static int64_t ot_try_bind( ot_ip6 ip, uint16_t port, PROTO_FLAG proto ) {$/;"	f	file:	signature:( ot_ip6 ip, uint16_t port, PROTO_FLAG proto )
+ot_try_bind	./proxy.c	/^static int64_t ot_try_bind( ot_ip6 ip, uint16_t port ) {$/;"	f	file:	signature:( ot_ip6 ip, uint16_t port )
+ot_vector	./ot_vector.h	/^} ot_vector;$/;"	t	typeref:struct:__anon12
+ot_workstruct	./trackerlogic.h	/^struct ot_workstruct {$/;"	s
+ot_workstruct::debugbuf	./trackerlogic.h	/^  char    *debugbuf;$/;"	m	struct:ot_workstruct	access:public
+ot_workstruct::hash	./trackerlogic.h	/^  ot_hash *hash;$/;"	m	struct:ot_workstruct	access:public
+ot_workstruct::header_size	./trackerlogic.h	/^  ssize_t  header_size;$/;"	m	struct:ot_workstruct	access:public
+ot_workstruct::inbuf	./trackerlogic.h	/^  char    *inbuf;$/;"	m	struct:ot_workstruct	access:public
+ot_workstruct::keep_alive	./trackerlogic.h	/^  int      keep_alive;$/;"	m	struct:ot_workstruct	access:public
+ot_workstruct::outbuf	./trackerlogic.h	/^  char    *outbuf;$/;"	m	struct:ot_workstruct	access:public
+ot_workstruct::peer	./trackerlogic.h	/^  ot_peer  peer;$/;"	m	struct:ot_workstruct	access:public
+ot_workstruct::peer_id	./trackerlogic.h	/^  char    *peer_id;$/;"	m	struct:ot_workstruct	access:public
+ot_workstruct::reply	./trackerlogic.h	/^  char    *reply;$/;"	m	struct:ot_workstruct	access:public
+ot_workstruct::reply_size	./trackerlogic.h	/^  ssize_t  reply_size;$/;"	m	struct:ot_workstruct	access:public
+ot_workstruct::request	./trackerlogic.h	/^  char    *request;$/;"	m	struct:ot_workstruct	access:public
+ot_workstruct::request_size	./trackerlogic.h	/^  ssize_t  request_size;$/;"	m	struct:ot_workstruct	access:public
+outbuf	./trackerlogic.h	/^  char    *outbuf;$/;"	m	struct:ot_workstruct	access:public
+outdata	./proxy.c	/^  io_batch outdata;         \/* The iobatch containing our sync data *\/$/;"	m	struct:__anon11	file:	access:public
+packet_tcount	./proxy.c	/^  size_t   packet_tcount;   \/* Number of unprocessed torrents in packet we currently receive *\/$/;"	m	struct:__anon11	file:	access:public
+packet_tid	./proxy.c	/^  uint32_t packet_tid;      \/* Tracker id for current packet *\/$/;"	m	struct:__anon11	file:	access:public
+packet_tprefix	./proxy.c	/^  uint8_t  packet_tprefix;  \/* Prefix byte for all torrents in current packet *\/$/;"	m	struct:__anon11	file:	access:public
+packet_type	./proxy.c	/^  uint8_t  packet_type;     \/* Type of current packet *\/$/;"	m	struct:__anon11	file:	access:public
+panic	./opentracker.c	/^static void panic( const char *routine ) {$/;"	f	file:	signature:( const char *routine )
+panic	./proxy.c	/^static void panic( const char *routine ) {$/;"	f	file:	signature:( const char *routine )
+parse_configfile	./opentracker.c	/^int parse_configfile( char * config_filename ) {$/;"	f	signature:( char * config_filename )
+peer	./trackerlogic.h	/^  ot_peer  peer;$/;"	m	struct:ot_workstruct	access:public
+peer_count	./ot_stats.c	/^  unsigned long long peer_count;$/;"	m	struct:__anon16	file:	access:public
+peer_count	./trackerlogic.h	/^  size_t         peer_count;$/;"	m	struct:ot_peerlist	access:public
+peer_id	./trackerlogic.h	/^  char    *peer_id;$/;"	m	struct:ot_workstruct	access:public
+peer_list	./trackerlogic.h	/^  ot_peerlist *peer_list;$/;"	m	struct:__anon4	access:public
+peers	./trackerlogic.h	/^  ot_vector      peers;$/;"	m	struct:ot_peerlist	access:public
+port	./proxy.c	/^  uint16_t port;            \/* The peers port *\/$/;"	m	struct:__anon11	file:	access:public
+process_indata	./proxy.c	/^static void process_indata( proxy_peer * peer ) {$/;"	f	file:	signature:( proxy_peer * peer )
+process_indata	./proxy.c	/^static void process_indata( proxy_peer * peer );$/;"	p	file:	signature:( proxy_peer * peer )
+proxy	./ot_accesslist.c	/^  ot_net    *proxy;$/;"	m	struct:__anon7	file:	access:public
+proxy_peer	./proxy.c	/^} proxy_peer;$/;"	t	typeref:struct:__anon11	file:
+proxylist_add_network	./ot_accesslist.c	/^int proxylist_add_network( const ot_net *proxy, const ot_net *net ) {$/;"	f	signature:( const ot_net *proxy, const ot_net *net )
+proxylist_add_network	./ot_accesslist.h	/^int proxylist_add_network( const ot_net *proxy, const ot_net *net );$/;"	p	signature:( const ot_net *proxy, const ot_net *net )
+proxylist_check_network	./ot_accesslist.h	/^int proxylist_check_network( const ot_ip6 *proxy, const ot_ip6 address \/* can be NULL to only check proxy *\/ );$/;"	p	signature:( const ot_ip6 *proxy, const ot_ip6 address )
+proxylist_check_proxy	./ot_accesslist.c	/^int proxylist_check_proxy( const ot_ip6 proxy, const ot_ip6 address ) {$/;"	f	signature:( const ot_ip6 proxy, const ot_ip6 address )
+rcon	./ot_rijndael.c	/^static const uint32_t rcon[] = {$/;"	v	file:
+remove_peer_from_torrent	./trackerlogic.c	/^size_t remove_peer_from_torrent( PROTO_FLAG proto, struct ot_workstruct *ws ) {$/;"	f	signature:( PROTO_FLAG proto, struct ot_workstruct *ws )
+remove_peer_from_torrent	./trackerlogic.h	/^size_t  remove_peer_from_torrent( PROTO_FLAG proto, struct ot_workstruct *ws );$/;"	p	signature:( PROTO_FLAG proto, struct ot_workstruct *ws )
+remove_peer_from_torrent_proxy	./proxy.c	/^size_t remove_peer_from_torrent_proxy( ot_hash hash, ot_peer *peer ) {$/;"	f	signature:( ot_hash hash, ot_peer *peer )
+reply	./trackerlogic.h	/^  char    *reply;$/;"	m	struct:ot_workstruct	access:public
+reply_size	./trackerlogic.h	/^  ssize_t  reply_size;$/;"	m	struct:ot_workstruct	access:public
+request	./ot_http.h	/^  array            request;$/;"	m	struct:http_data	access:public
+request	./trackerlogic.h	/^  char    *request;$/;"	m	struct:ot_workstruct	access:public
+request_size	./trackerlogic.h	/^  ssize_t  request_size;$/;"	m	struct:ot_workstruct	access:public
+reset_info_block	./proxy.c	/^void reset_info_block( proxy_peer * peer ) {$/;"	f	signature:( proxy_peer * peer )
+return_peers_all	./trackerlogic.c	/^static size_t return_peers_all( ot_peerlist *peer_list, char *reply ) {$/;"	f	file:	signature:( ot_peerlist *peer_list, char *reply )
+return_peers_for_torrent	./trackerlogic.c	/^size_t return_peers_for_torrent( ot_torrent *torrent, size_t amount, char *reply, PROTO_FLAG proto ) {$/;"	f	signature:( ot_torrent *torrent, size_t amount, char *reply, PROTO_FLAG proto )
+return_peers_for_torrent	./trackerlogic.c	/^size_t return_peers_for_torrent( ot_torrent *torrent, size_t amount, char *reply, PROTO_FLAG proto );$/;"	p	file:	signature:( ot_torrent *torrent, size_t amount, char *reply, PROTO_FLAG proto )
+return_peers_selection	./trackerlogic.c	/^static size_t return_peers_selection( ot_peerlist *peer_list, size_t amount, char *reply ) {$/;"	f	file:	signature:( ot_peerlist *peer_list, size_t amount, char *reply )
+return_stats_for_tracker	./ot_stats.c	/^size_t return_stats_for_tracker( char *reply, int mode, int format ) {$/;"	f	signature:( char *reply, int mode, int format )
+return_stats_for_tracker	./ot_stats.h	/^size_t return_stats_for_tracker( char *reply, int mode, int format );$/;"	p	signature:( char *reply, int mode, int format )
+return_tcp_scrape_for_torrent	./trackerlogic.c	/^size_t return_tcp_scrape_for_torrent( ot_hash *hash_list, int amount, char *reply ) {$/;"	f	signature:( ot_hash *hash_list, int amount, char *reply )
+return_tcp_scrape_for_torrent	./trackerlogic.h	/^size_t  return_tcp_scrape_for_torrent( ot_hash *hash, int amount, char *reply );$/;"	p	signature:( ot_hash *hash, int amount, char *reply )
+return_udp_scrape_for_torrent	./trackerlogic.c	/^size_t return_udp_scrape_for_torrent( ot_hash hash, char *reply ) {$/;"	f	signature:( ot_hash hash, char *reply )
+return_udp_scrape_for_torrent	./trackerlogic.h	/^size_t  return_udp_scrape_for_torrent( ot_hash hash, char *reply );$/;"	p	signature:( ot_hash hash, char *reply )
+rijndaelEncrypt128	./ot_rijndael.c	/^void rijndaelEncrypt128(const uint32_t rk[44], const uint8_t pt[16], uint8_t ct[16]) {$/;"	f	signature:(const uint32_t rk[44], const uint8_t pt[16], uint8_t ct[16])
+rijndaelEncrypt128	./ot_rijndael.h	/^void rijndaelEncrypt128(const uint32_t rk[44], const uint8_t pt[16], uint8_t ct[16]);$/;"	p	signature:(const uint32_t rk[44], const uint8_t pt[16], uint8_t ct[16])
+rijndaelKeySetupEnc128	./ot_rijndael.c	/^int rijndaelKeySetupEnc128(uint32_t rk[44], const uint8_t cipherKey[] ) {$/;"	f	signature:(uint32_t rk[44], const uint8_t cipherKey[] )
+rijndaelKeySetupEnc128	./ot_rijndael.h	/^int rijndaelKeySetupEnc128(uint32_t rk[44], const uint8_t cipherKey[] );$/;"	p	signature:(uint32_t rk[44], const uint8_t cipherKey[] )
+scan_find_keywords	./scan_urlencoded_query.c	/^int scan_find_keywords( const ot_keywords * keywords, char **string, SCAN_SEARCHPATH_FLAG flags) {$/;"	f	signature:( const ot_keywords * keywords, char **string, SCAN_SEARCHPATH_FLAG flags)
+scan_find_keywords	./scan_urlencoded_query.h	/^int scan_find_keywords( const ot_keywords * keywords, char **string, SCAN_SEARCHPATH_FLAG flags);$/;"	p	signature:( const ot_keywords * keywords, char **string, SCAN_SEARCHPATH_FLAG flags)
+scan_fixed_int	./scan_urlencoded_query.c	/^ssize_t scan_fixed_int( char *data, size_t len, int *tmp ) {$/;"	f	signature:( char *data, size_t len, int *tmp )
+scan_fixed_int	./scan_urlencoded_query.h	/^ssize_t scan_fixed_int( char *data, size_t len, int *number );$/;"	p	signature:( char *data, size_t len, int *number )
+scan_ip6_port	./opentracker.c	/^static int scan_ip6_port( const char *src, ot_ip6 ip, uint16 *port ) {$/;"	f	file:	signature:( const char *src, ot_ip6 ip, uint16 *port )
+scan_ip6_port	./proxy.c	/^static int scan_ip6_port( const char *src, ot_ip6 ip, uint16 *port ) {$/;"	f	file:	signature:( const char *src, ot_ip6 ip, uint16 *port )
+scan_urlencoded_query	./scan_urlencoded_query.c	/^ssize_t scan_urlencoded_query(char **string, char *deststring, SCAN_SEARCHPATH_FLAG flags) {$/;"	f	signature:(char **string, char *deststring, SCAN_SEARCHPATH_FLAG flags)
+scan_urlencoded_query	./scan_urlencoded_query.h	/^ssize_t scan_urlencoded_query(char **string, char *deststring, SCAN_SEARCHPATH_FLAG flags);$/;"	p	signature:(char **string, char *deststring, SCAN_SEARCHPATH_FLAG flags)
+scan_urlencoded_skipvalue	./scan_urlencoded_query.c	/^void scan_urlencoded_skipvalue( char **string ) {$/;"	f	signature:( char **string )
+scan_urlencoded_skipvalue	./scan_urlencoded_query.h	/^void scan_urlencoded_skipvalue( char **string );$/;"	p	signature:( char **string )
+seed_count	./ot_stats.c	/^  unsigned long long seed_count;$/;"	m	struct:__anon16	file:	access:public
+seed_count	./trackerlogic.h	/^  size_t         seed_count;$/;"	m	struct:ot_peerlist	access:public
+server_mainloop	./opentracker.c	/^static void * server_mainloop( void * args ) {$/;"	f	file:	signature:( void * args )
+server_mainloop	./proxy.c	/^static void server_mainloop() {$/;"	f	file:
+set_config_option	./opentracker.c	/^char * set_config_option( char **option, char *value ) {$/;"	f	signature:( char **option, char *value )
+set_value_for_net	./ot_accesslist.c	/^void *set_value_for_net( const ot_net *net, ot_vector *vector, const void *value, const size_t member_size ) {$/;"	f	signature:( const ot_net *net, ot_vector *vector, const void *value, const size_t member_size )
+set_value_for_net	./ot_accesslist.h	/^void *set_value_for_net( const ot_net *net, ot_vector *vector, const void *value, const size_t member_size );$/;"	p	signature:( const ot_net *net, ot_vector *vector, const void *value, const size_t member_size )
+signal_handler	./opentracker.c	/^static void signal_handler( int s ) {$/;"	f	file:	signature:( int s )
+size	./ot_accesslist.h	/^  size_t   size;$/;"	m	struct:ot_log	access:public
+size	./ot_vector.h	/^  size_t  size;$/;"	m	struct:__anon12	access:public
+sock	./ot_mutex.c	/^  int64           sock;$/;"	m	struct:ot_task	file:	access:public
+space	./ot_vector.h	/^  size_t  space;$/;"	m	struct:__anon12	access:public
+stat_increase_network_count	./ot_stats.c	/^static int stat_increase_network_count( stats_network_node **pnode, int depth, uintptr_t ip ) {$/;"	f	file:	signature:( stats_network_node **pnode, int depth, uintptr_t ip )
+state	./proxy.c	/^  int      state;           \/* Whether we want to connect, how far our handshake is, etc. *\/$/;"	m	struct:__anon11	file:	access:public
+stats_cleanup	./ot_stats.c	/^void stats_cleanup() {$/;"	f
+stats_cleanup	./ot_stats.h	/^void   stats_cleanup();$/;"	p	signature:()
+stats_connections_mrtg	./ot_stats.c	/^static size_t stats_connections_mrtg( char * reply ) {$/;"	f	file:	signature:( char * reply )
+stats_deinit	./ot_stats.c	/^void stats_deinit( ) {$/;"	f
+stats_deinit	./ot_stats.h	/^void   stats_deinit( );$/;"	p	signature:( )
+stats_deliver	./ot_stats.c	/^void stats_deliver( int64 sock, int tasktype ) {$/;"	f	signature:( int64 sock, int tasktype )
+stats_deliver	./ot_stats.h	/^void   stats_deliver( int64 sock, int tasktype );$/;"	p	signature:( int64 sock, int tasktype )
+stats_fullscrapes_mrtg	./ot_stats.c	/^static size_t stats_fullscrapes_mrtg( char * reply ) {$/;"	f	file:	signature:( char * reply )
+stats_get_highscore_networks	./ot_stats.c	/^static size_t stats_get_highscore_networks( stats_network_node *node, int depth, ot_ip6 node_value, size_t *scores, ot_ip6 *networks, int network_count, int limit ) {$/;"	f	file:	signature:( stats_network_node *node, int depth, ot_ip6 node_value, size_t *scores, ot_ip6 *networks, int network_count, int limit )
+stats_httperrors_txt	./ot_stats.c	/^static size_t stats_httperrors_txt ( char * reply ) {$/;"	f	file:	signature:( char * reply )
+stats_init	./ot_stats.c	/^void stats_init( ) {$/;"	f
+stats_init	./ot_stats.h	/^void   stats_init( );$/;"	p	signature:( )
+stats_issue_event	./ot_stats.c	/^void stats_issue_event( ot_status_event event, PROTO_FLAG proto, uintptr_t event_data ) {$/;"	f	signature:( ot_status_event event, PROTO_FLAG proto, uintptr_t event_data )
+stats_issue_event	./ot_stats.h	/^void   stats_issue_event( ot_status_event event, PROTO_FLAG proto, uintptr_t event_data );$/;"	p	signature:( ot_status_event event, PROTO_FLAG proto, uintptr_t event_data )
+stats_issue_event	./proxy.c	/^void stats_issue_event( ot_status_event event, PROTO_FLAG proto, uintptr_t event_data ) {$/;"	f	signature:( ot_status_event event, PROTO_FLAG proto, uintptr_t event_data )
+stats_make	./ot_stats.c	/^static void stats_make( int *iovec_entries, struct iovec **iovector, ot_tasktype mode ) {$/;"	f	file:	signature:( int *iovec_entries, struct iovec **iovector, ot_tasktype mode )
+stats_make	./ot_stats.c	/^static void stats_make( int *iovec_entries, struct iovec **iovector, ot_tasktype mode );$/;"	p	file:	signature:( int *iovec_entries, struct iovec **iovector, ot_tasktype mode )
+stats_network_counters_root	./ot_stats.c	/^static stats_network_node *stats_network_counters_root;$/;"	v	file:
+stats_network_node	./ot_stats.c	/^typedef union stats_network_node stats_network_node;$/;"	t	typeref:union:stats_network_node	file:
+stats_network_node	./ot_stats.c	/^union stats_network_node {$/;"	u	file:
+stats_network_node::children	./ot_stats.c	/^  stats_network_node *children[STATS_NETWORK_NODE_COUNT];$/;"	m	union:stats_network_node	file:	access:public
+stats_network_node::counters	./ot_stats.c	/^  size_t              counters[STATS_NETWORK_NODE_COUNT];$/;"	m	union:stats_network_node	file:	access:public
+stats_peers_mrtg	./ot_stats.c	/^static size_t stats_peers_mrtg( char * reply ) {$/;"	f	file:	signature:( char * reply )
+stats_return_busy_networks	./ot_stats.c	/^static size_t stats_return_busy_networks( char * reply, stats_network_node *tree, int amount, int limit ) {$/;"	f	file:	signature:( char * reply, stats_network_node *tree, int amount, int limit )
+stats_return_completed_mrtg	./ot_stats.c	/^static size_t stats_return_completed_mrtg( char * reply ) {$/;"	f	file:	signature:( char * reply )
+stats_return_everything	./ot_stats.c	/^static size_t stats_return_everything( char * reply ) {$/;"	f	file:	signature:( char * reply )
+stats_return_fulllog	./ot_stats.c	/^static void stats_return_fulllog( int *iovec_entries, struct iovec **iovector, char *r ) {$/;"	f	file:	signature:( int *iovec_entries, struct iovec **iovector, char *r )
+stats_return_numwants	./ot_stats.c	/^static size_t stats_return_numwants( char * reply ) {$/;"	f	file:	signature:( char * reply )
+stats_return_renew_bucket	./ot_stats.c	/^static size_t stats_return_renew_bucket( char * reply ) {$/;"	f	file:	signature:( char * reply )
+stats_return_sync_mrtg	./ot_stats.c	/^static size_t stats_return_sync_mrtg( char * reply ) {$/;"	f	file:	signature:( char * reply )
+stats_return_tracker_version	./ot_stats.c	/^size_t stats_return_tracker_version( char *reply ) {$/;"	f	signature:( char *reply )
+stats_return_tracker_version	./ot_stats.h	/^size_t stats_return_tracker_version( char *reply );$/;"	p	signature:( char *reply )
+stats_return_woodpeckers	./ot_stats.c	/^static size_t stats_return_woodpeckers( char * reply, int amount ) {$/;"	f	file:	signature:( char * reply, int amount )
+stats_scrape_mrtg	./ot_stats.c	/^static size_t stats_scrape_mrtg( char * reply ) {$/;"	f	file:	signature:( char * reply )
+stats_shift_down_network_count	./ot_stats.c	/^static int stats_shift_down_network_count( stats_network_node **node, int depth, int shift ) {$/;"	f	file:	signature:( stats_network_node **node, int depth, int shift )
+stats_slash24s_txt	./ot_stats.c	/^static size_t stats_slash24s_txt( char *reply, size_t amount ) {$/;"	f	file:	signature:( char *reply, size_t amount )
+stats_tcpconnections_mrtg	./ot_stats.c	/^static size_t stats_tcpconnections_mrtg( char * reply ) {$/;"	f	file:	signature:( char * reply )
+stats_top_txt	./ot_stats.c	/^size_t stats_top_txt( char * reply, int amount ) {$/;"	f	signature:( char * reply, int amount )
+stats_torrents_mrtg	./ot_stats.c	/^static size_t stats_torrents_mrtg( char * reply )$/;"	f	file:	signature:( char * reply )
+stats_udpconnections_mrtg	./ot_stats.c	/^static size_t stats_udpconnections_mrtg( char * reply ) {$/;"	f	file:	signature:( char * reply )
+stats_woodpeckers_tree	./ot_stats.c	/^static stats_network_node *stats_woodpeckers_tree;$/;"	v	file:
+stats_worker	./ot_stats.c	/^static void * stats_worker( void * args ) {$/;"	f	file:	signature:( void * args )
+streamsync_worker	./proxy.c	/^static void * streamsync_worker( void * args ) {$/;"	f	file:	signature:( void * args )
+streamsync_worker	./proxy.c	/^static void * streamsync_worker( void * args );$/;"	p	file:	signature:( void * args )
+sync_deinit	./ot_sync.c	/^void sync_deinit( ) {$/;"	f
+sync_deinit	./ot_sync.h	/^void sync_deinit( );$/;"	p	signature:( )
+sync_deinit	./ot_sync.h	20;"	d
+sync_deliver	./ot_sync.c	/^void sync_deliver( int64 socket ) {$/;"	f	signature:( int64 socket )
+sync_deliver	./ot_sync.h	/^void sync_deliver( int64 socket );$/;"	p	signature:( int64 socket )
+sync_init	./ot_sync.c	/^void sync_init( ) {$/;"	f
+sync_init	./ot_sync.h	/^void sync_init( );$/;"	p	signature:( )
+sync_init	./ot_sync.h	19;"	d
+sync_make	./ot_sync.c	/^static void sync_make( int *iovec_entries, struct iovec **iovector ) {$/;"	f	file:	signature:( int *iovec_entries, struct iovec **iovector )
+sync_worker	./ot_sync.c	/^static void * sync_worker( void * args) {$/;"	f	file:	signature:( void * args)
+taskid	./ot_mutex.c	/^  ot_taskid       taskid;$/;"	m	struct:ot_task	file:	access:public
+tasklist	./ot_mutex.c	/^static struct ot_task *tasklist;$/;"	v	typeref:struct:ot_task	file:
+tasklist_being_filled	./ot_mutex.c	/^static pthread_cond_t tasklist_being_filled;$/;"	v	file:
+tasklist_mutex	./ot_mutex.c	/^static pthread_mutex_t tasklist_mutex;$/;"	v	file:
+tasktype	./ot_mutex.c	/^  ot_tasktype     tasktype;$/;"	m	struct:ot_task	file:	access:public
+thread_id	./ot_accesslist.c	/^static pthread_t thread_id;$/;"	v	file:
+thread_id	./ot_clean.c	/^static pthread_t thread_id;$/;"	v	file:
+thread_id	./ot_fullscrape.c	/^static pthread_t thread_id;$/;"	v	file:
+thread_id	./ot_livesync.c	/^static pthread_t thread_id;$/;"	v	file:
+thread_id	./ot_stats.c	/^static pthread_t thread_id;$/;"	v	file:
+thread_id	./ot_sync.c	/^static pthread_t thread_id;$/;"	v	file:
+time	./ot_accesslist.h	/^  ot_time  time;$/;"	m	struct:ot_log	access:public
+to_hex	./ot_fullscrape.c	/^static char*to_hex(char*d,uint8_t*s){char*m="0123456789ABCDEF";char *t=d;char*e=d+40;while(d<e){*d++=m[*s>>4];*d++=m[*s++&15];}*d=0;return t;}$/;"	f	file:	signature:(char*d,uint8_t*s)
+to_hex	./ot_stats.c	/^static char*to_hex(char*d,uint8_t*s){char*m="0123456789ABCDEF";char *t=d;char*e=d+40;while(d<e){*d++=m[*s>>4];*d++=m[*s++&15];}*d=0;return t;}$/;"	f	file:	signature:(char*d,uint8_t*s)
+torrent	./ot_stats.c	/^typedef struct { size_t val; ot_torrent * torrent; } ot_record;$/;"	m	struct:__anon17	file:	access:public
+torrent_count	./ot_stats.c	/^  unsigned long long torrent_count;$/;"	m	struct:__anon16	file:	access:public
+torrent_stats	./ot_stats.c	/^} torrent_stats;$/;"	t	typeref:struct:__anon16	file:
+torrent_statter	./ot_stats.c	/^static int torrent_statter( ot_torrent *torrent, uintptr_t data ) {$/;"	f	file:	signature:( ot_torrent *torrent, uintptr_t data )
+tracker_id	./proxy.c	/^  uint32_t tracker_id;      \/* How the other end greeted *\/$/;"	m	struct:__anon11	file:	access:public
+trackerlogic_deinit	./trackerlogic.c	/^void trackerlogic_deinit( void ) {$/;"	f	signature:( void )
+trackerlogic_deinit	./trackerlogic.h	/^void trackerlogic_deinit( void );$/;"	p	signature:( void )
+trackerlogic_init	./trackerlogic.c	/^void trackerlogic_init( ) {$/;"	f
+trackerlogic_init	./trackerlogic.h	/^void trackerlogic_init( );$/;"	p	signature:( )
+udp_generate_rijndael_round_key	./ot_udp.c	/^static void udp_generate_rijndael_round_key() {$/;"	f	file:
+udp_init	./ot_udp.c	/^void udp_init( int64 sock, unsigned int worker_count ) {$/;"	f	signature:( int64 sock, unsigned int worker_count )
+udp_init	./ot_udp.h	/^void udp_init( int64 sock, unsigned int worker_count );$/;"	p	signature:( int64 sock, unsigned int worker_count )
+udp_make_connectionid	./ot_udp.c	/^static void udp_make_connectionid( uint32_t connid[2], const ot_ip6 remoteip, int age ) {$/;"	f	file:	signature:( uint32_t connid[2], const ot_ip6 remoteip, int age )
+udp_worker	./ot_udp.c	/^static void* udp_worker( void * args ) {$/;"	f	file:	signature:( void * args )
+usage	./opentracker.c	/^static void usage( char *name ) {$/;"	f	file:	signature:( char *name )
+usage	./proxy.c	/^int usage( char *self ) {$/;"	f	signature:( char *self )
+val	./ot_stats.c	/^typedef struct { size_t val; ot_torrent * torrent; } ot_record;$/;"	m	struct:__anon17	file:	access:public
+value	./scan_urlencoded_query.h	/^  int   value;$/;"	m	struct:__anon21	access:public
+vector_clean_list	./ot_vector.c	/^void vector_clean_list( ot_vector * vector, int num_buckets ) {$/;"	f	signature:( ot_vector * vector, int num_buckets )
+vector_compare_hash	./ot_accesslist.c	/^static int vector_compare_hash(const void *hash1, const void *hash2 ) {$/;"	f	file:	signature:(const void *hash1, const void *hash2 )
+vector_compare_peer	./ot_vector.c	/^static int vector_compare_peer(const void *peer1, const void *peer2 ) {$/;"	f	file:	signature:(const void *peer1, const void *peer2 )
+vector_find_or_insert	./ot_vector.c	/^void *vector_find_or_insert( ot_vector *vector, void *key, size_t member_size, size_t compare_size, int *exactmatch ) {$/;"	f	signature:( ot_vector *vector, void *key, size_t member_size, size_t compare_size, int *exactmatch )
+vector_find_or_insert	./ot_vector.h	/^void    *vector_find_or_insert( ot_vector *vector, void *key, size_t member_size, size_t compare_size, int *exactmatch );$/;"	p	signature:( ot_vector *vector, void *key, size_t member_size, size_t compare_size, int *exactmatch )
+vector_find_or_insert_peer	./ot_vector.c	/^ot_peer *vector_find_or_insert_peer( ot_vector *vector, ot_peer *peer, int *exactmatch ) {$/;"	f	signature:( ot_vector *vector, ot_peer *peer, int *exactmatch )
+vector_find_or_insert_peer	./ot_vector.h	/^ot_peer *vector_find_or_insert_peer( ot_vector *vector, ot_peer *peer, int *exactmatch );$/;"	p	signature:( ot_vector *vector, ot_peer *peer, int *exactmatch )
+vector_fixup_peers	./ot_vector.c	/^void vector_fixup_peers( ot_vector * vector ) {$/;"	f	signature:( ot_vector * vector )
+vector_fixup_peers	./ot_vector.h	/^void     vector_fixup_peers( ot_vector * vector );$/;"	p	signature:( ot_vector * vector )
+vector_hash_peer	./ot_vector.c	/^static uint8_t vector_hash_peer( ot_peer *peer, int bucket_count ) {$/;"	f	file:	signature:( ot_peer *peer, int bucket_count )
+vector_redistribute_buckets	./ot_vector.c	/^void vector_redistribute_buckets( ot_peerlist * peer_list ) {$/;"	f	signature:( ot_peerlist * peer_list )
+vector_redistribute_buckets	./ot_vector.h	/^void     vector_redistribute_buckets( ot_peerlist * peer_list );$/;"	p	signature:( ot_peerlist * peer_list )
+vector_remove_peer	./ot_vector.c	/^int vector_remove_peer( ot_vector *vector, ot_peer *peer ) {$/;"	f	signature:( ot_vector *vector, ot_peer *peer )
+vector_remove_peer	./ot_vector.h	/^int      vector_remove_peer( ot_vector *vector, ot_peer *peer );$/;"	p	signature:( ot_vector *vector, ot_peer *peer )
+vector_remove_torrent	./ot_vector.c	/^void vector_remove_torrent( ot_vector *vector, ot_torrent *match ) {$/;"	f	signature:( ot_vector *vector, ot_torrent *match )
+vector_remove_torrent	./ot_vector.h	/^void     vector_remove_torrent( ot_vector *vector, ot_torrent *match );$/;"	p	signature:( ot_vector *vector, ot_torrent *match )
